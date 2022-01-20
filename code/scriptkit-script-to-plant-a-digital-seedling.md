@@ -1,12 +1,5 @@
-
----
-title: ScriptKit script to plant a digital seedling
-created: 2022-01-20
----
-# ScriptKit script to plant a digital seedling
-
-```
-// Name: Plant in your garden
+// Name: Plant seedling
+// Description: Plant a seedling in your digital garden
 // Author: Bill Beckelman
 
 import "@johnlindquist/kit";
@@ -17,25 +10,30 @@ const GARDEN_REPO = await env("GARDEN_REPO");
 const filenamify = await npm("filenamify");
 const dateFns = await npm("date-fns");
 
-const seedling = await textarea({ placeholder: "Content to plant" });
-const title = await arg({
-  placeholder: "What do you want to name this content?",
-  hint: "Title",
-});
+const title = await arg("What do you want to name this seedling?");
+const seedling = await textarea({ placeholder: "Seedling to plant" });
+const area = await arg("What area of the garden?", [
+  "Code",
+  "Flying",
+  "Recipes",
+  "Hiking",
+  "Family",
+]);
 
-const filename = filenamify(`${title.toLowerCase().replace(/ /g, "-")}.md`);
+const filename = filenamify(`${title}.md`.toLowerCase().replace(/ /g, "-"));
 const today = dateFns.format(new Date(), "yyyy-MM-dd");
 
 const md = `
 ---
 title: ${title}
 created: ${today}
+category: ${area.toLowerCase()}
 ---
 ${seedling}
 `;
 
 const res = await fetch(
-  `https://api.github.com/repos/${GITHUB_OWNER}/${GARDEN_REPO}/contents/${filename}`,
+  `https://api.github.com/repos/${GITHUB_OWNER}/${GARDEN_REPO}/contents/${area.toLowerCase()}/${filename}`,
   {
     method: "PUT",
     headers: {
@@ -56,5 +54,5 @@ if (!res.ok) {
 }
 
 const { content } = await res.json();
+
 await $`open ${content.html_url}`;
-```
