@@ -30,8 +30,7 @@ const area = await arg("What area of the garden?", [
 const filename = filenamify(`${title}.md`.toLowerCase().replace(/ /g, "-"));
 const today = dateFns.format(new Date(), "yyyy-MM-dd");
 
-const md = `
----
+const md = `---
 title: ${title}
 created: ${today}
 category: ${area.toLowerCase()}

@@ -1,9 +1,10 @@
-
 ---
 title: ScriptKit script to upload images to Cloudflare Images
 created: 2022-01-20
 ---
+
 # ScriptKit script to upload images to Cloudflare Images
+
 ```
 import "@johnlindquist/kit";
 
