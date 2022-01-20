@@ -1,3 +1,10 @@
+---
+title: ScriptKit script to plant a digital seedling
+created: 2022-01-20
+---
+# ScriptKit script to plant a digital seedling
+
+```
 // Name: Plant seedling
 // Description: Plant a seedling in your digital garden
 // Author: Bill Beckelman
@@ -56,3 +63,4 @@ if (!res.ok) {
 const { content } = await res.json();
 
 await $`open ${content.html_url}`;
+```
