@@ -56,5 +56,5 @@ if (!res.ok) {
 }
 
 const { content } = await res.json();
-show(content);
+await $`open ${content.html_url}`;
 ```
