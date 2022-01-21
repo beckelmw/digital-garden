@@ -3,12 +3,8 @@ title: Chile Colorado
 created: 2022-01-21
 category: recipes
 ---
----
-title: Chile Colorado
-category: Pork
-tags: Mexican
----
-# Chile morita salsa
+
+# Chile Colorado
 
 ## Introduction
 
