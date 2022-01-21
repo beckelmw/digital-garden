@@ -8,7 +8,7 @@ category: recipes
 
 ## Introduction
 
-Chile colorado is great by itself, with fresh flour tortillas or with a fried egg in the morning.
+Chile colorado is great by itself, with fresh [flour tortillas](/recipes/flour-tortillas) or with a fried egg in the morning.
 
 ## Ingredients
 - 6 cups of chicken stock
