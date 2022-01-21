@@ -1,6 +1,16 @@
 # Code
 
+## How to
+
+- [Creating a digital garden with Github, Markdown and Cloudflare Workers](/code/creating-a-digital-garden-with-github-markdown-and-cloudflare-workers)
+
 ## ScriptKit
+
+[ScriptKit](https://www.scriptkit.com/) is an open source kit to optimize developer workflow.
+
+> Script Kit makes it easy to create and run scripts that solve your daily problems. Create a new script from the prompt then your script opens in the editor of your choice. Write a few lines of JavaScript. Then run the script from the prompt.
+
+> Simply put, Script Kit helps you script away the friction of your day.
 
 - [Plant a digital seeding](/code/scriptkit-script-to-plant-a-digital-seedling)
 - [Upload selected images to Cloudflare Images](/code/scriptkit-script-to-upload-images-to-cloudflare-images)
