@@ -25,6 +25,6 @@ Similar to https://www.mexicanplease.com/flour-tortillas-made-olive-oil/ but wit
 - Optionally let these rest covered in the fridge until needed
 - When ready to cook, first flatten a single ball with a tortilla press and then roll out with a rolling pin
 - Cook on a comal set at medium heat until brown patches appear and tortilla is cooked through
-- Store is tortilla warmer or between towels
+- Store in tortilla warmer or between towels
 - Repeat with remaining dough balls
 - Will keeps for a few days in a zip lock bag
