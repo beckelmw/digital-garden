@@ -29,7 +29,7 @@ So, here it is. How I started my digital garden using Github, Markdown and a Clo
 
 ### ESBuild
 
-This is my build.js file for the worker using the [ESBuild's programmatic api](https://esbuild.github.io/getting-started/):
+This is my build.js file for the worker using [ESBuild's programmatic api](https://esbuild.github.io/getting-started/):
 
 ```
 import * as esbuild from "esbuild";
@@ -55,7 +55,7 @@ esbuild.build({
 
 ### Miniflare
 
-[Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. Within package.json miniflare is started with some KV settings and a command to run the build script above.
+[Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. Within package.json miniflare is started with some [KV settings](https://miniflare.dev/storage/kv) and a command to run the build script above. It will also watch for code changes.
 
 ```
 "scripts": {
@@ -66,34 +66,34 @@ esbuild.build({
 
 #### Environment variables
 
-Miniflare will pickup the variables you define in a `.env` file automatically. When you deploy your worker to Cloudflare you will have to set the environment variables your worker expects using their [wrangler cli](https://developers.cloudflare.com/workers/cli-wrangler/commands#put) tool.
+Miniflare will pickup the variables you define in a [.env](https://miniflare.dev/core/variables-secrets) file automatically. When you deploy your worker to Cloudflare you will need to set the environment variables your worker expects using their [wrangler cli](https://developers.cloudflare.com/workers/cli-wrangler/commands#put) tool.
 
 ### Getting content from the Github API
 
-You can use the [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API from within a Cloudflare worker. The fetch looks like this:
+You can use the [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API from within a Cloudflare worker. The fetch call looks like this:
 
 ```
 const headers = new Headers({
     authorization: `token ${env.GITHUB_TOKEN}`,
     accept: "application/vnd.github.v3+json",
     "User-Agent": "beckelman.org", // GITHUB will send 403 without UserAgent
-  });
+});
 
-  if (cachedItem?.etag) {
+if (cachedItem?.etag) {
     headers.append("If-None-Match", cachedItem.etag);
-  }
+}
 
-  const res = await fetch(`https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents${path}`, {
+const res = await fetch(`https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents${path}`, {
     headers,
-  });
+});
 ```
 
 #### Caching fetched content with Workers KV
 
-When you make a request for content from the Github API it will return a [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) status code if the content hasn't changed. You tell it what content you have via an [etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) in a [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match) header in your request. The nice thing about 304s is they don't count against your API quota.
+When you make a request for content from the Github API it will return a [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) status code if the content hasn't changed. You tell it what content you have via an [etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) in a [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match) header in your request. The nice thing about [304s is they don't count against your API quota](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#conditional-requests).
 
 The flow is:
- - Check KV for cached content
+ - Check [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) for cached content
  - If cached content exists, then add If-None-Match header with etag stored with the cached content
  - Make request
  - Check response
