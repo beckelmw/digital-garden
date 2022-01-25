@@ -1,5 +1,5 @@
 ---
-title: Ministrone Soup
+title: Minestrone Soup
 created: 2022-01-24
 category: recipes
 ---
