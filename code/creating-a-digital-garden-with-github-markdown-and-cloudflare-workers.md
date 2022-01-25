@@ -12,22 +12,24 @@ So, here it is. How I started my digital garden using Github, Markdown and a Clo
 ## Reasoning
 - Markdown
   - Easy to write and transport anywhere in the future
-  - Github flavored markdown even better
-- Github
+  - [Github flavored markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) is even better
+- [Github](https://github.com)
   - Content doesn't live on my machine
   - Versioned via git
   - Existing API which 304s when content hasn't changed
   - Can edit content from an iPad
-- Cloudflare worker
+  - Another developer could contribute or correct my mistakes via a pull request
+- [Cloudflare worker](https://developers.cloudflare.com/workers/)
   - Easy setup
   - Served from the edge
   - Based on web standards
+  - Inexpensive
 
 ## Setting up a Cloudflare worker
 
 ### ESBuild
 
-This is my build.js file for the worker:
+This is my build.js file for the worker using the [ESBuild's programmatic api](https://esbuild.github.io/getting-started/):
 
 ```
 import * as esbuild from "esbuild";
@@ -53,7 +55,7 @@ esbuild.build({
 
 ### Miniflare
 
-[Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. Within package.json miniflare is started with some KV settings a command to run the build script above.
+[Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. Within package.json miniflare is started with some KV settings and a command to run the build script above.
 
 ```
 "scripts": {
@@ -67,6 +69,24 @@ esbuild.build({
 Miniflare will pickup the variables you define in a `.env` file automatically. When you deploy your worker to Cloudflare you will have to set the environment variables your worker expects using their [wrangler cli](https://developers.cloudflare.com/workers/cli-wrangler/commands#put) tool.
 
 ### Getting content from the Github API
+
+You can use the [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API from within a Cloudflare worker. The fetch looks like this:
+
+```
+const headers = new Headers({
+    authorization: `token ${env.GITHUB_TOKEN}`,
+    accept: "application/vnd.github.v3+json",
+    "User-Agent": "beckelman.org", // GITHUB will send 403 without UserAgent
+  });
+
+  if (cachedItem?.etag) {
+    headers.append("If-None-Match", cachedItem.etag);
+  }
+
+  const res = await fetch(`https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents${path}`, {
+    headers,
+  });
+```
 
 #### Caching fetched content with Workers KV
 
