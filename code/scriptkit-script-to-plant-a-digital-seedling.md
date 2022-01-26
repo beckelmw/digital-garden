@@ -3,7 +3,6 @@ title: ScriptKit script to plant a digital seedling
 created: 2022-01-20
 status: budding
 ---
-# ScriptKit script to plant a digital seedling
 
 ```
 // Name: Plant seedling

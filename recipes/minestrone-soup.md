@@ -5,8 +5,6 @@ category: recipes
 status: evergreen
 ---
 
-# Minestrone Soup
-
 ## Introduction
 
 Minestrone Soup from https://www.dinneratthezoo.com/olive-garden-minestrone-soup/. Great with some crumbled italian sausage added.

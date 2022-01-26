@@ -4,8 +4,6 @@ created: 2022-01-20
 status: budding
 ---
 
-# ScriptKit script to upload images to Cloudflare Images
-
 ```
 import "@johnlindquist/kit";
 

@@ -1,11 +1,9 @@
 ---
-title: Creating a digital garden with Github, Markdown and Cloudflare Workers
+title: Creating a digital garden with Github, Markdown and a Cloudflare Worker
 created: 2022-01-21
 category: code
 status: seedling
 ---
-
-# Creating a digital garden with Github, Markdown and a Cloudflare Worker
 
 > Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis. - https://maggieappleton.com/garden-history.
 

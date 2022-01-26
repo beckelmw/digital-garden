@@ -5,8 +5,6 @@ category: recipes
 status: evergreen
 ---
 
-# Chile Colorado
-
 ## Introduction
 
 Chile colorado is great by itself, with fresh [flour tortillas](/recipes/flour-tortillas) or with a fried egg in the morning.

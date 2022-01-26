@@ -1,5 +1,3 @@
-# Flying
-
 ## Bonanza
 
 ### Lean of peak operations (LOP)

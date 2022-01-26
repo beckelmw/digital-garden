@@ -5,8 +5,6 @@ category: recipes
 status: evergreen
 ---
 
-# Flour tortillas
-
 ## Introduction
 
 Similar to https://www.mexicanplease.com/flour-tortillas-made-olive-oil/ but with more olive oil.
