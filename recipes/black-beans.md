@@ -2,6 +2,7 @@
 title: Black Beans
 created: 2022-01-24
 category: recipes
+status: evergreen
 ---
 # Black Beans
 

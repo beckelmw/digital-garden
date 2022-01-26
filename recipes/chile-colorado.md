@@ -2,6 +2,7 @@
 title: Chile Colorado
 created: 2022-01-21
 category: recipes
+status: evergreen
 ---
 
 # Chile Colorado

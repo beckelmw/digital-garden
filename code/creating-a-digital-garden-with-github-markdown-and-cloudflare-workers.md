@@ -2,7 +2,9 @@
 title: Creating a digital garden with Github, Markdown and Cloudflare Workers
 created: 2022-01-21
 category: code
+status: seedling
 ---
+
 # Creating a digital garden with Github, Markdown and a Cloudflare Worker
 
 > Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis. - https://maggieappleton.com/garden-history.
@@ -10,6 +12,7 @@ category: code
 So, here it is. How I started my digital garden using Github, Markdown and a Cloudflare worker.
 
 ## Reasoning
+
 - Markdown
   - Easy to write and transport anywhere in the future
   - [Github flavored markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) is even better
@@ -93,15 +96,15 @@ const res = await fetch(`https://api.github.com/repos/${env.GITHUB_OWNER}/${env.
 When you make a request for content from the Github API it will return a [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) status code if the content hasn't changed. You tell it what content you have via an [etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) in a [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match) header in your request. The nice thing about [304s is they don't count against your API quota](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#conditional-requests).
 
 The flow is:
- - Check [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) for cached content
- - If cached content exists, then add If-None-Match header with etag stored with the cached content
- - Make request
- - Check response
-    - If status code 304 then bail and return existing cached content
-    - If status code 200 then cache new content with etag and then return content to user
-    - If status code 404 then delete cached content and return 404 to the user
-    - If there is an error return cached content
 
+- Check [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) for cached content
+- If cached content exists, then add If-None-Match header with etag stored with the cached content
+- Make request
+- Check response
+  - If status code 304 then bail and return existing cached content
+  - If status code 200 then cache new content with etag and then return content to user
+  - If status code 404 then delete cached content and return 404 to the user
+  - If there is an error return cached content
 
 ### Processing markdown with Remark and generating HTML with Rehype
 
@@ -144,7 +147,7 @@ export default async (markdown) => {
 
 ## TailwindCSS
 
-You cannot currently setup your tailwind config as an ES Module. They have a work around though where they will pickup the config when it ends with a `.cjs`. Here is my `tailwind.config.cjs` file:
+You cannot currently setup your tailwind config as an ES Module. They have a [work around though where they will pickup the config](https://github.com/tailwindlabs/tailwindcss/pull/3181) when it ends with a `.cjs`. Here is my `tailwind.config.cjs` file:
 
 ```
 module.exports = {
@@ -165,5 +168,3 @@ I am processing it concurrently along with miniflare using the script below and 
     "dev:tailwind": "npx tailwindcss -c ./tailwind.config.cjs -i ./src/css/site.css -o .mf/kv/CONTENT/css/site.css --watch"
 }
 ```
-
-
