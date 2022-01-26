@@ -166,3 +166,11 @@ I am processing it concurrently along with miniflare using the script below and 
     "dev:tailwind": "npx tailwindcss -c ./tailwind.config.cjs -i ./src/css/site.css -o .mf/kv/CONTENT/css/site.css --watch"
 }
 ```
+
+### Publishing updated CSS
+
+After a build, the css needs to be published to the workers KV store. The command below will upload the file.
+
+```
+wrangler kv:key put --binding=CONTENT css/site.css ./dist/site.css --path
+```

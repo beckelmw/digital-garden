@@ -9,7 +9,7 @@ status: seedling
 
 ## Status of pages
 
-- Seedling: Rough drafts and early ideas. May change significantly and are likely just a brain dump at this point.
+- Seedling: Rough drafts and early ideas. May change significantly and are likely just a brain dump
 - Budding: Work which has been cleaned up and clarified
 - Evergreen: Complete but may change some over time
 
