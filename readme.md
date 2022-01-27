@@ -6,5 +6,5 @@ This is my [digital garden](https://maggieappleton.com/garden-history). It's a p
 
 - [Code](/code)
 - [Flying](/flying)
-- [Hiking](/hiking)
+- [Hiking](/hikes)
 - [Recipes](/recipes)
