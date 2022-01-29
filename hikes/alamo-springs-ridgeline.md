@@ -12,6 +12,8 @@ This [loop trail](https://www.alltrails.com/trail/us/arizona/wild-mustang-to-wil
 
 I did 13.8 miles of this 15.4 mile loop on a cool January morning. Found a crested sahuaro near the east end of the loop. I saw nine mountain bikers and zero hikers in the first 10 miles due to the early start. I finally saw some hikers coming the opposite direction on the loop once I was down in a more travelled part of the trail system.
 
+<div class="grid grid-cols-3">
+
 ![IMG_1640.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/079fa800-c0b1-4613-d9db-037a64fc5c00/330width)
 ![IMG_1642.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/ea2dc464-4b4f-42d2-965f-230af8722600/330width)
 ![IMG_1644.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/0f3c490e-5261-4dc3-a9e2-7c51b1779400/330width)
@@ -40,3 +42,5 @@ I did 13.8 miles of this 15.4 mile loop on a cool January morning. Found a crest
 ![IMG_1683.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/c2e3f79a-3bf8-4a9e-f968-4be5d3a1a400/330width)
 ![IMG_1684.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/5a76e514-4ce0-48e7-d776-980b44440100/330width)
 ![IMG_1691.png](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/02605ccc-107a-402e-a0a5-57151747b800/330width)
+
+</div>
