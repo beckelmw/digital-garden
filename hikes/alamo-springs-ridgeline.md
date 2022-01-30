@@ -6,6 +6,7 @@ elevationGain: 2762 ft
 fee: false
 dogs: true
 difficulty: moderate
+url: /hikes/alamo-springs-ridgeline
 ---
 
 This [loop trail](https://www.alltrails.com/trail/us/arizona/wild-mustang-to-wild-burro-to-ridgeline-to-alamo-springs) is part of the system behind the Tucson Ritz Carlton in the Tortolita Mountains.

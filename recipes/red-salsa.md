@@ -2,6 +2,7 @@
 title: Red Salsa
 created: 2022-01-25
 category: recipes
+url: /recipes/red-salsa
 ---
 ## Introduction
 

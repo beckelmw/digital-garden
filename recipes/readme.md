@@ -1,4 +1,7 @@
-# Recipes
+---
+title: Recipes
+url: /recipes
+---
 
 ## Mexican
 
@@ -8,9 +11,10 @@
 - [Enchilada Sauce](/recipes/enchilada-sauce)
 - [Flour Tortillas](/recipes/flour-tortillas)
 - [Guacamole](/recipes/guacamole)
+- [Queso Blanco](/recipes/queso-blanco)
 - [Red Salsa](/recipes/red-salsa)
 - [Roasted Tomatillo Salsa](/recipes/roasted-tomatillo-salsa)
-- [Queso Blanco](/recipes/queso-blanco)
+
 
 ## Italian
 

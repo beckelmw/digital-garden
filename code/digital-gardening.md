@@ -3,6 +3,7 @@ title: Digital Gardening
 created: 2022-01-25
 category: code
 status: seedling
+url: /code/digital-gardening
 ---
 
 <div id="status"></div>

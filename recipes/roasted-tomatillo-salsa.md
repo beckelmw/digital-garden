@@ -2,6 +2,7 @@
 title: Roasted Tomatillo Salsa
 created: 2022-01-25
 category: recipes
+url: /recipes/roasted-tomatillo-salsa
 ---
 I really like the acidic flavor of tomatillo. This roasted tomatillo salsa is excellent on pork carnitas. Tomatillo are generally available at most large grocery stores in the Southwestern United States.
 

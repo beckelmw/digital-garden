@@ -2,6 +2,7 @@
 title: Chile Morita Salsa
 created: 2022-01-25
 category: recipes
+url: /recipes/chile-morita-salsa
 ---
 ## Introduction
 

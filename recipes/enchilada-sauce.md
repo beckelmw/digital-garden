@@ -2,6 +2,7 @@
 title: Enchilada Sauce
 created: 2022-01-25
 category: recipes
+url: /recipes/enchilada-sauce
 ---
 ## Introduction
 

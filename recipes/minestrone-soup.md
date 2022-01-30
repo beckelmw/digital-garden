@@ -3,6 +3,7 @@ title: Minestrone Soup
 created: 2022-01-24
 category: recipes
 status: evergreen
+url: /recipes/minestrone-soup
 ---
 
 ## Introduction

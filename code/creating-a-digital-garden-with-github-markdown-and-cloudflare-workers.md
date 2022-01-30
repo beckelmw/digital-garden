@@ -3,6 +3,7 @@ title: Creating a digital garden with Github, Markdown and a Cloudflare Worker
 created: 2022-01-21
 category: code
 status: seedling
+url: /code/creating-a-digital-garden-with-github-markdown-and-cloudflare-workers
 ---
 
 > Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis. - https://maggieappleton.com/garden-history.
@@ -123,12 +124,13 @@ export default async (markdown) => {
     .use(remarkParse)
     .use(remarkFrontmatter)
     .use(() => {
-      return (ast) => {
+      return (ast, file) => {
+        file.data.meta = {};
         visit(
           ast,
           (x) => x.type === "yaml",
           (node, index, parent) => {
-            meta = { ...meta, ...yaml(node.value) };
+            file.data.meta = { ...yaml(node.value) };
           }
         );
       };
@@ -139,7 +141,7 @@ export default async (markdown) => {
     .use(rehypeStringify)
     .process(markdown);
 
-  return { html, meta };
+  return { html, meta: file.data.meta };
 };
 ```
 

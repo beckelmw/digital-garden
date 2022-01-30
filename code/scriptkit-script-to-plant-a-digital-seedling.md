@@ -2,6 +2,7 @@
 title: ScriptKit script to plant a digital seedling
 created: 2022-01-20
 status: budding
+url: /code/scriptkit-script-to-plant-a-digital-seedling
 ---
 
 ```

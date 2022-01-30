@@ -1,4 +1,7 @@
-# Code
+---
+title: Code
+url: /code
+---
 
 ## How to
 

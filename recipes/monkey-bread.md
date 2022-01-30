@@ -2,7 +2,9 @@
 title: Monkey Bread
 created: 2022-01-25
 category: recipes
+url: /recipes/monkey-bread
 ---
+
 Monkey bread is a fun brunch sweet for sharing with a larger group. This recipe takes quite a bit of effort, but is worth the time investment.
 
 ## Ingredients

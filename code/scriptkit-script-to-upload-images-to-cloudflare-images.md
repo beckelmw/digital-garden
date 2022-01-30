@@ -2,6 +2,7 @@
 title: ScriptKit script to upload images to Cloudflare Images
 created: 2022-01-20
 status: budding
+code: /code/scriptkit-script-to-upload-images-to-cloudflare-images
 ---
 
 ```

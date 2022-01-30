@@ -1,4 +1,7 @@
-# Flying
+---
+title: Flying
+url: /flying
+---
 
 Today, I fly for fun. It takes a lot of study to stay current and proficient. Here are some of the resources I have found helpful to do so.
 

@@ -3,6 +3,7 @@ title: Guacamole
 created: 2022-01-25
 category: recipes
 status: Evergreen
+url: /recipes/guacamole
 ---
 
 ## Ingredients

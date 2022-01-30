@@ -2,7 +2,9 @@
 title: Italian Sausage
 created: 2022-01-25
 category: recipes
+url: /recipes/italian-sausage
 ---
+
 I've always liked Italian sausage. I found this recipe for making my own that has worked out great. I often double the recipe below and freeze it in multiple 1 to 1.5 lb logs for later use.
 
 ## Ingredients
