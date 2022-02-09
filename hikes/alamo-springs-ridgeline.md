@@ -13,6 +13,11 @@ This [loop trail](https://www.alltrails.com/trail/us/arizona/wild-mustang-to-wil
 
 I did 13.8 miles of this 15.4 mile loop on a cool January morning. Found a crested sahuaro near the east end of the loop. I saw nine mountain bikers and zero hikers in the first 10 miles due to the early start. I finally saw some hikers coming the opposite direction on the loop once I was down in a more travelled part of the trail system.
 
+<mapbox-map
+  accessToken="3yQ7Mty4E4FBZlTVgzgo"
+  url="/hikes/alamo-springs-ridgeline.geojson">
+</mapbox-map>
+
 - ![IMG_1640.jpg from 32.477603, -111.083769](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/19d0aba2-99b0-4138-c013-110211f7f700/330width)
 - ![IMG_1642.jpg from 32.475844, -111.082747](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/58c47e1a-31f1-4cd9-1e46-a4015c245300/330width)
 - ![IMG_1644.jpg from 32.479636, -111.072089](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/2b84a616-d976-40d4-29f1-10d94ff03300/330width)
