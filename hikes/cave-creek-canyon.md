@@ -3,6 +3,12 @@ title: Cave Creek Canyon
 created: 2022-02-19
 category: hikes
 url: /hikes/cave-creek-canyon
+type: Out and back
+distance: 7.2 miles
+elevationGain: 2152 ft
+fee: false
+dogs: true
+difficulty: moderate
 ---
 This [trail](https://www.alltrails.com/trail/us/arizona/cave-creek-canyon-trail-149) has a lot of shade in the beginning while it is by the creek. This 1.5 to 2 mile section could be done year round. Once you reach the switchbacks and head towards the Florida saddle, I wouldn't recommend it in the summer unless you handle the heat well and have lots of water.
 

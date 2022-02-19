@@ -7,3 +7,4 @@ url: /hikes
 - [Blackett's Ridge](blacketts-ridge.md)
 - [Boynton Canyon](boynton-canyon.md)
 - [Catalina State Park](catalina-state-park-loop.md)
+- [Cave Creek Canyon](cave-creek-canyon.md)
