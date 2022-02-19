@@ -16,7 +16,7 @@ This is a must do [hike](https://www.arizonahighways.com/explore/hiking/blackett
 
 Note: This is within a fee area of the [Coronado National Forest](https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80532).
 
-<mapbox-map></mapbox-map>
+<wb-map></wb-map>
 
 - ![IMG_2443.PNG](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/ab83f9c3-c701-4fa5-cfeb-a6f877994700/330width)
 - ![IMG_2008.jpg from 32.324078, -110.796228](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/d9511057-c4f5-4540-53a5-ad69b1abfc00/330width)
