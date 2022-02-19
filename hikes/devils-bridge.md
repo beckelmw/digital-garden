@@ -12,6 +12,8 @@ difficulty: moderate
 ---
 This is a very popular out and back [trail](https://www.alltrails.com/trail/us/arizona/devils-bridge-trail) in the Sedona, AZ area. This is the largest natural bridge in the [Coconino National Forest](https://www.fs.usda.gov/coconino/). You will often need to park quite a ways from the actual trail head and will encounter numerous hikers even during the warmer months. The hike is easy except for the last ~2/10 of a mile to the bridge where it is moderate. The bridge itself is great for pictures and is much wider than the pictures make it look.
 
+<wb-map></wb-map>
+
 - ![IMG_3331.jpg from 34.901650, -111.811836](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/b77ac167-1f2c-45f7-ad8b-a04f18fa9200/330width)
 - ![IMG_3332.jpg from 34.901644, -111.811822](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/454c2f95-91bd-4284-dbbc-3ba851bc4200/330width)
 - ![IMG_3337.jpg from 34.900219, -111.808517](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/d9d38bfe-708e-4cd4-eb0a-9bbc4e285200/330width)
