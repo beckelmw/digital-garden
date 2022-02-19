@@ -2,8 +2,9 @@
 title: Catalina State Park Loop
 created: 2022-02-19
 category: hikes
-url: hikes-catalina-state-park-loop
+url: /hikes/catalina-state-park-loop
 ---
+
 This loop at Catalina State Park is very popular and a great hike for smaller kids. There is often water, especially during wet years. This trail allows dogs and you will often see horses. It isn't as pretty since the Big Horn fire, but is still a great hike. There are often additional activities in the park on the weekends during the winter.
 
 - ![IMG_5940.jpeg from 32.425925, -110.903122](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/414001e9-c7b9-4a66-689c-69a508cb1100/330width)
