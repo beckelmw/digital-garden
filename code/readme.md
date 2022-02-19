@@ -5,7 +5,7 @@ url: /code
 
 ## How to
 
-- [Creating a digital garden with Github, Markdown and Cloudflare Workers](creating-a-digital-garden-with-github-markdown-and-cloudflare-workers)
+- [Creating a digital garden with Github, Markdown and Cloudflare Workers](creating-a-digital-garden-with-github-markdown-and-cloudflare-workers.md)
 
 ## ScriptKit
 
@@ -15,9 +15,9 @@ url: /code
 
 > Simply put, Script Kit helps you script away the friction of your day.
 
-- [Plant a digital seeding](scriptkit-script-to-plant-a-digital-seedling)
-- [Upload selected images to Cloudflare Images](scriptkit-script-to-upload-images-to-cloudflare-images)
+- [Plant a digital seeding](scriptkit-script-to-plant-a-digital-seedling.md)
+- [Upload selected images to Cloudflare Images](scriptkit-script-to-upload-images-to-cloudflare-images.md)
 
 ## Unified
 
-- [Mutating unist AST](mutating-unist-ast)
+- [Mutating unist AST](mutating-unist-ast.md)
