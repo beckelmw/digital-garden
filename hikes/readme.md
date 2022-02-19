@@ -3,6 +3,6 @@ title: Hiking
 url: /hikes
 ---
 
-- [Alamo Springs and Ridgeline Trail](./alamo-springs-ridgeline)
-- [Blackett's Ridge](./blacketts-ridge)
-- [Boynton Canyon](./boynton-canyon)
+- [Alamo Springs and Ridgeline Trail](./alamo-springs-ridgeline.md)
+- [Blackett's Ridge](./blacketts-ridge.md)
+- [Boynton Canyon](./boynton-canyon.md)
