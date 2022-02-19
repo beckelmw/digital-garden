@@ -11,3 +11,4 @@ url: /hikes
 - [Devil's Bridge](devils-bridge.md)
 - [Madera Canyon](madera-canyon.md)
 - [Montrose Pools](montrose-pools.md)
+- [Pima Canyon](pima-canyon.md)

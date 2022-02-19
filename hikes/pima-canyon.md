@@ -3,10 +3,18 @@ title: Pima Canyon
 created: 2022-02-19
 category: hikes
 url: /hikes/pima-canyon
+type: Out and back
+distance: 10.1 miles
+elevationGain: 3339 ft
+fee: false
+dogs: false
+difficulty: moderate
 ---
 I first hiked part of this 10.1 mile out and back trail during the Spring of 2020 prior to the Bighorn fire.
 
 The highlight of this hike was seeing a [Gila Monster](https://animals.sandiegozoo.org/animals/gila-monster).
+
+<wb-map></wb-map>
 
 - ![IMG_2445.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/76119832-d7a4-41ec-f419-ab8b6a4bdd00/330width)
 - ![IMG_7349.jpg from 32.357575, -110.933808](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/1aae0684-b2f6-4747-dbd4-2826d10e2700/330width)
