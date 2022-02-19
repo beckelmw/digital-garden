@@ -19,6 +19,8 @@ We saw some interesting [web worms](https://en.wikipedia.org/wiki/Fall_webworm) 
 
 The first part of the trail overlooks the [Enchantment Resort](https://www.enchantmentresort.com/).
 
+<wb-map></wb-map>
+
 - ![IMG_3483.PNG](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/6669bf72-4baf-4615-f583-159f24662000/330width)
 - ![IMG_3409.jpeg from 34.910053, -111.849381](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/af3c45ba-0c1a-426b-85ad-56d1ed7c1300/330width)
 - ![IMG_3411.jpeg from 34.911289, -111.849678](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/c0f0000f-e782-46d1-053d-c8c5b4f56600/330width)
