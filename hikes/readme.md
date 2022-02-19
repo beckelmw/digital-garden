@@ -8,3 +8,4 @@ url: /hikes
 - [Boynton Canyon](boynton-canyon.md)
 - [Catalina State Park](catalina-state-park-loop.md)
 - [Cave Creek Canyon](cave-creek-canyon.md)
+- [Devil's Bridge](devils-bridge.md)

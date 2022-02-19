@@ -2,7 +2,13 @@
 title: Devil's Bridge
 created: 2022-02-19
 category: hikes
-url: /hikes/devil-s-bridge
+url: /hikes/devils-bridge
+type: Out and back
+distance: 3.9 miles
+elevationGain: 521 ft
+fee: false
+dogs: true
+difficulty: moderate
 ---
 This is a very popular out and back [trail](https://www.alltrails.com/trail/us/arizona/devils-bridge-trail) in the Sedona, AZ area. This is the largest natural bridge in the [Coconino National Forest](https://www.fs.usda.gov/coconino/). You will often need to park quite a ways from the actual trail head and will encounter numerous hikers even during the warmer months. The hike is easy except for the last ~2/10 of a mile to the bridge where it is moderate. The bridge itself is great for pictures and is much wider than the pictures make it look.
 
