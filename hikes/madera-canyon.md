@@ -3,8 +3,17 @@ title: Madera Canyon
 created: 2022-02-19
 category: hikes
 url: /hikes/madera-canyon
+type: Out and back
+distance: 4.5 miles
+elevationGain: 1666 ft
+fee: true
+feeUrl: https://www.fs.usda.gov/detail/coronado/passes-permits/recreation/?cid=fswdev7_018712
+dogs: true
+difficulty: moderate
 ---
 I've hiked a few different trails here including the [Josephine saddle](https://www.alltrails.com/trail/us/arizona/josephine-saddle-madera-canyon-trail) and the [Vault mine loop](https://www.alltrails.com/trail/us/arizona/vault-mine-loop) trail. Depending upon the time of year/day of the week parking can be difficult as it is somewhat limited.
+
+<wb-map></wb-map>
 
 - ![IMG_2530.jpg from 31.709586, -110.875603](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/65d10c44-aeb3-4ecf-09d5-323819a34300/330width)
 - ![IMG_2854.jpg from 31.706653, -110.869203](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/06b625ce-e202-46dc-6fb4-023445b8f700/330width)
