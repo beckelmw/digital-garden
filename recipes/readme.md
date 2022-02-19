@@ -5,25 +5,25 @@ url: /recipes
 
 ## Mexican
 
-- [Black Beans](/recipes/black-beans)
-- [Chile Colorado](/recipes/chile-colorado)
-- [Chile Morita Salsa](/recipes/chile-morita-salsa)
-- [Enchilada Sauce](/recipes/enchilada-sauce)
-- [Flour Tortillas](/recipes/flour-tortillas)
-- [Guacamole](/recipes/guacamole)
-- [Queso Blanco](/recipes/queso-blanco)
-- [Red Salsa](/recipes/red-salsa)
-- [Roasted Tomatillo Salsa](/recipes/roasted-tomatillo-salsa)
+- [Black Beans](black-beans)
+- [Chile Colorado](chile-colorado)
+- [Chile Morita Salsa](chile-morita-salsa)
+- [Enchilada Sauce](enchilada-sauce)
+- [Flour Tortillas](flour-tortillas)
+- [Guacamole](guacamole)
+- [Queso Blanco](queso-blanco)
+- [Red Salsa](red-salsa)
+- [Roasted Tomatillo Salsa](roasted-tomatillo-salsa)
 
 
 ## Italian
 
-- [Italian Sausage](/recipes/italian-sausage)
+- [Italian Sausage](italian-sausage)
 
 ## Soup
 
-- [Minestrone](/recipes/minestrone-soup)
+- [Minestrone](minestrone-soup)
 
 ## Bakery
 
-- [Monkey Bread](/recipes/monkey-bread)
+- [Monkey Bread](monkey-bread)
