@@ -12,3 +12,4 @@ url: /hikes
 - [Madera Canyon](madera-canyon.md)
 - [Montrose Pools](montrose-pools.md)
 - [Pima Canyon](pima-canyon.md)
+- [Wasson Peak](wasson-peak.md)
