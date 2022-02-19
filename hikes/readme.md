@@ -13,3 +13,4 @@ url: /hikes
 - [Montrose Pools](montrose-pools.md)
 - [Pima Canyon](pima-canyon.md)
 - [Wasson Peak](wasson-peak.md)
+- [West Fork](west-fork.md)
