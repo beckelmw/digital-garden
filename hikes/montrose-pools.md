@@ -3,8 +3,16 @@ title: Montrose Pools
 created: 2022-02-19
 category: hikes
 url: /hikes/montrose-pools
+type: Out and back
+distance: ~2 miles
+elevationGain: 300 ft
+fee: true
+dogs: false
+difficulty: easy
 ---
 Montrose pools is accessible from Catalina State Park. We were lucky there was water to play in when we hiked this in April of 2020.
+
+<wb-map></wb-map>
 
 - ![IMG_7095.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/aa5bfa80-23a7-41cb-eeb6-77f794e85300/330width)
 - ![IMG_7042.jpg from 32.425869, -110.900750](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/632c0409-b8a3-4d47-1907-21185f4f2600/330width)

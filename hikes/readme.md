@@ -10,3 +10,4 @@ url: /hikes
 - [Cave Creek Canyon](cave-creek-canyon.md)
 - [Devil's Bridge](devils-bridge.md)
 - [Madera Canyon](madera-canyon.md)
+- [Montrose Pools](montrose-pools.md)
