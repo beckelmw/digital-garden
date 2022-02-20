@@ -10,6 +10,8 @@ fee: true
 feeUrl: https://www.nps.gov/sagu/planyourvisit/ways-to-pay-fees.htm
 dogs: false
 difficulty: hard
+latitude: 32.288814
+longitude: -111.121357
 ---
 This was a beautiful [hike](https://www.alltrails.com/trail/us/arizona/wasson-peak-via-sweetwater-trail) with amazing views of the valleys around Tucson in all directions. I would recommend this hike for late October through the end of March only as there is little shade. Definitely a start early and take lots of water hike.
 

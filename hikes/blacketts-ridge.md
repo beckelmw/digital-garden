@@ -8,6 +8,8 @@ dogs: false
 feeUrl: https://www.fs.usda.gov/recarea/coronado/recreation/recarea/?recid=80532
 difficulty: hard
 url: /hikes/blacketts-ridge
+latitude: 32.309423
+longitude: -110.822081
 ---
 
 We hiked [Blackett's Ridge](https://www.alltrails.com/trail/us/arizona/blacketts-ridge-trail) as a sunset hike with return via headlamp. We departed the main parking area for [Sabino Canyon](https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80532) about an hour and fifteen minutes prior to sunset arriving just in time to view the sunset from the top.

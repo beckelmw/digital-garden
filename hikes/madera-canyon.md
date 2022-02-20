@@ -10,6 +10,8 @@ fee: true
 feeUrl: https://www.fs.usda.gov/detail/coronado/passes-permits/recreation/?cid=fswdev7_018712
 dogs: true
 difficulty: moderate
+latitude: 31.726988
+longitude: -110.880819
 ---
 I've hiked a few different trails here including the [Josephine saddle](https://www.alltrails.com/trail/us/arizona/josephine-saddle-madera-canyon-trail) and the [Vault mine loop](https://www.alltrails.com/trail/us/arizona/vault-mine-loop) trail. Depending upon the time of year/day of the week parking can be difficult as it is somewhat limited.
 
