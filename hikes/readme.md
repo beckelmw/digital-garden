@@ -3,7 +3,7 @@ title: Hiking
 url: /hikes
 ---
 
-<wb-map></wb-map>
+<wb-map url="/hikes/hikes.geojson"></wb-map>
 
 - [Alamo Springs and Ridgeline Trail](alamo-springs-ridgeline.md)
 - [Blackett's Ridge](blacketts-ridge.md)
