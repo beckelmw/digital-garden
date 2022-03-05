@@ -11,6 +11,7 @@ difficulty: moderate
 url: /hikes/boynton-canyon
 latitude: 34.906395
 longitude: -111.850473
+location: Sedona, AZ
 ---
 
 This is a popular [trail](https://www.alltrails.com/trail/us/arizona/boynton-canyon-trail) northwest of Sedona, AZ. During the winter months you may find parking limited at the trail head depending upon the time of day, but there is parking allowed along the road about ~2/10 of a mile away.

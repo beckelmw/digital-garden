@@ -11,6 +11,7 @@ dogs: true
 difficulty: moderate
 latitude: 34.995056
 longitude: -111.737095
+location: Sedona, AZ
 ---
 This is a beautiful [trail](https://www.alltrails.com/trail/us/arizona/west-fork-trail) northeast of Sedona just off 89A in Oak Creek Canyon. The trail is very well shaded and could be hiked year round. You will cross the creek a total of 26 times (out and back). It would be a great hike for kids who want to play in the water during the warmer months.
 

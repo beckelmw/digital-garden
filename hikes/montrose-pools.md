@@ -11,6 +11,7 @@ dogs: false
 difficulty: easy
 latitude: 32.425338
 longitude: -110.908324
+location: Tucson, AZ
 ---
 Montrose pools is accessible from Catalina State Park. We were lucky there was water to play in when we hiked this in April of 2020.
 

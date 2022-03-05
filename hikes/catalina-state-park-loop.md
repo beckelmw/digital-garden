@@ -12,6 +12,7 @@ dogs: true
 difficulty: easy
 latitude: 32.424678
 longitude: -110.907366
+location: Tucson, AZ
 ---
 
 This loop at Catalina State Park is very popular and a great hike for smaller kids. There is often water, especially during wet years. This trail allows dogs and you will often see horses. It isn't as pretty since the Big Horn fire, but is still a great hike. There are often additional activities in the park on the weekends during the winter.

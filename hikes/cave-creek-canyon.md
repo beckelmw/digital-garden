@@ -11,6 +11,7 @@ dogs: true
 difficulty: moderate
 latitude: 31.710101
 longitude: -110.799501
+location: Sonoita, AZ
 ---
 This [trail](https://www.alltrails.com/trail/us/arizona/cave-creek-canyon-trail-149) has a lot of shade in the beginning while it is by the creek. This 1.5 to 2 mile section could be done year round. Once you reach the switchbacks and head towards the Florida saddle, I wouldn't recommend it in the summer unless you handle the heat well and have lots of water.
 
