@@ -1,6 +1,7 @@
 ---
 title: Fried Jalapeño Coins
 date: 2022-03-06
+cuisine: Mexican
 ---
 
 These fried jalapeño coins are great as an appetizer or on top of salads.
