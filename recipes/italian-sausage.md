@@ -2,6 +2,7 @@
 title: Italian Sausage
 created: 2022-01-25
 category: recipes
+cuisine: Italian
 url: /recipes/italian-sausage
 ---
 

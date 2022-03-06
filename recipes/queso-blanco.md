@@ -2,6 +2,7 @@
 title: Queso Blanco
 created: 2022-01-25
 category: recipes
+cuisine: Mexican
 url: /recipes/queso-blanco
 ---
 This cheese is very popular at parties and family get togethers. Adjust peppers as desired based on personal preference and season.

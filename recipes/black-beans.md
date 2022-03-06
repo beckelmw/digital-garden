@@ -3,6 +3,7 @@ title: Black Beans
 created: 2022-01-24
 category: recipes
 status: evergreen
+cuisine: Mexican
 url: /recipes/black-beans
 ---
 
