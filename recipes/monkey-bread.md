@@ -1,7 +1,6 @@
 ---
 title: Monkey Bread
 created: 2022-01-25
-category: recipes
 cuisine: Baking
 url: /recipes/monkey-bread
 ---

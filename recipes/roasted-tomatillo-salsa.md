@@ -1,7 +1,6 @@
 ---
 title: Roasted Tomatillo Salsa
 created: 2022-01-25
-category: recipes
 cuisine: Mexican
 url: /recipes/roasted-tomatillo-salsa
 ---

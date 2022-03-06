@@ -1,7 +1,6 @@
 ---
 title: Queso Blanco
 created: 2022-01-25
-category: recipes
 cuisine: Mexican
 url: /recipes/queso-blanco
 ---

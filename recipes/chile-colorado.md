@@ -1,7 +1,6 @@
 ---
 title: Chile Colorado
 created: 2022-01-21
-category: recipes
 status: evergreen
 cuisine: Mexican
 url: /recipes/chile-colorado
