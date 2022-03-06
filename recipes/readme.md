@@ -5,33 +5,33 @@ url: /recipes
 
 ### Baking
 
-| Name                                  |
-| ------------------------------------- |
-| [Monkey Bread](/recipes/monkey-bread) |
+| Name                                     |
+| ---------------------------------------- |
+| [Monkey Bread](/recipes/monkey-bread.md) |
 
 ### Italian
 
-| Name                                        |
-| ------------------------------------------- |
-| [Italian Sausage](/recipes/italian-sausage) |
+| Name                                           |
+| ---------------------------------------------- |
+| [Italian Sausage](/recipes/italian-sausage.md) |
 
 ### Mexican
 
-| Name                                                        |
-| ----------------------------------------------------------- |
-| [Black Beans](/recipes/black-beans)                         |
-| [Chile Colorado](/recipes/chile-colorado)                   |
-| [Chile Morita Salsa](/recipes/chile-morita-salsa)           |
-| [Enchilada Sauce](/recipes/enchilada-sauce)                 |
-| [Flour tortillas](/recipes/flour-tortillas)                 |
-| [Guacamole](/recipes/guacamole)                             |
-| [Queso Blanco](/recipes/queso-blanco)                       |
-| [Red Salsa](/recipes/red-salsa)                             |
-| [Roasted Tomatillo Salsa](/recipes/roasted-tomatillo-salsa) |
+| Name                                                           |
+| -------------------------------------------------------------- |
+| [Black Beans](/recipes/black-beans.md)                         |
+| [Chile Colorado](/recipes/chile-colorado.md)                   |
+| [Chile Morita Salsa](/recipes/chile-morita-salsa.md)           |
+| [Enchilada Sauce](/recipes/enchilada-sauce.md)                 |
+| [Flour tortillas](/recipes/flour-tortillas.md)                 |
+| [Guacamole](/recipes/guacamole.md)                             |
+| [Queso Blanco](/recipes/queso-blanco.md)                       |
+| [Red Salsa](/recipes/red-salsa.md)                             |
+| [Roasted Tomatillo Salsa](/recipes/roasted-tomatillo-salsa.md) |
 
 ### Soup
 
-| Name                                        |
-| ------------------------------------------- |
-| [Minestrone Soup](/recipes/minestrone-soup) |
+| Name                                           |
+| ---------------------------------------------- |
+| [Minestrone Soup](/recipes/minestrone-soup.md) |
 
