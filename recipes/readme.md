@@ -24,7 +24,7 @@ url: /recipes
 | [Chile Morita Salsa](/recipes/chile-morita-salsa.md)           |
 | [Enchilada Sauce](/recipes/enchilada-sauce.md)                 |
 | [Flour tortillas](/recipes/flour-tortillas.md)                 |
-| [Fried Jalapeño Coins](undefined.md)                           |
+| [Fried Jalapeño Coins](/recipes/fried-jalapeno-coins.md)       |
 | [Guacamole](/recipes/guacamole.md)                             |
 | [Queso Blanco](/recipes/queso-blanco.md)                       |
 | [Red Salsa](/recipes/red-salsa.md)                             |
