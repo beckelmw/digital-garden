@@ -3,27 +3,35 @@ title: Recipes
 url: /recipes
 ---
 
-## Mexican
+### Baking
 
-- [Black Beans](black-beans.md)
-- [Chile Colorado](chile-colorado.md)
-- [Chile Morita Salsa](chile-morita-salsa.md)
-- [Enchilada Sauce](enchilada-sauce.md)
-- [Flour Tortillas](flour-tortillas.md)
-- [Guacamole](guacamole.md)
-- [Queso Blanco](queso-blanco.md)
-- [Red Salsa](red-salsa.md)
-- [Roasted Tomatillo Salsa](roasted-tomatillo-salsa.md)
+| Name                                  |
+| ------------------------------------- |
+| [Monkey Bread](/recipes/monkey-bread) |
 
+### Italian
 
-## Italian
+| Name                                        |
+| ------------------------------------------- |
+| [Italian Sausage](/recipes/italian-sausage) |
 
-- [Italian Sausage](italian-sausage.md)
+### Mexican
 
-## Soup
+| Name                                                        |
+| ----------------------------------------------------------- |
+| [Black Beans](/recipes/black-beans)                         |
+| [Chile Colorado](/recipes/chile-colorado)                   |
+| [Chile Morita Salsa](/recipes/chile-morita-salsa)           |
+| [Enchilada Sauce](/recipes/enchilada-sauce)                 |
+| [Flour tortillas](/recipes/flour-tortillas)                 |
+| [Guacamole](/recipes/guacamole)                             |
+| [Queso Blanco](/recipes/queso-blanco)                       |
+| [Red Salsa](/recipes/red-salsa)                             |
+| [Roasted Tomatillo Salsa](/recipes/roasted-tomatillo-salsa) |
 
-- [Minestrone](minestrone-soup.md)
+### Soup
 
-## Bakery
+| Name                                        |
+| ------------------------------------------- |
+| [Minestrone Soup](/recipes/minestrone-soup) |
 
-- [Monkey Bread](monkey-bread.md)
