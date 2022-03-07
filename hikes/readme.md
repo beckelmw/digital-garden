@@ -27,12 +27,13 @@ url: /hikes
 
 ### Tucson, AZ
 
-| Name                                                                   | Type         | Difficulty | Distance   | Elevation Gain | Fee | Dogs |
-| ---------------------------------------------------------------------- | ------------ | ---------- | ---------- | -------------- | --- | ---- |
-| [Alamo Springs and Ridgeline Trail](/hikes/alamo-springs-ridgeline.md) | Loop         | MODERATE   | 15.4 miles | 2762 ft        | No  | Yes  |
-| [Blackett's Ridge](/hikes/blacketts-ridge.md)                          | Out and back | HARD       | 6 miles    | 1765 ft        | Yes | No   |
-| [Catalina State Park Loop](/hikes/catalina-state-park-loop.md)         | Loop         | EASY       | 2.3 miles  | 173 ft         | Yes | Yes  |
-| [Montrose Pools](/hikes/montrose-pools.md)                             | Out and back | EASY       | ~2 miles   | 300 ft         | Yes | No   |
-| [Pima Canyon](/hikes/pima-canyon.md)                                   | Out and back | MODERATE   | 10.1 miles | 3339 ft        | No  | No   |
-| [Wasson Peak](/hikes/wasson-peak.md)                                   | Out and back | HARD       | 9.3 miles  | 2093 ft        | Yes | No   |
+| Name                                                                     | Type         | Difficulty | Distance   | Elevation Gain | Fee | Dogs |
+| ------------------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- | --- | ---- |
+| [Alamo Springs and Ridgeline Trail](/hikes/alamo-springs-ridgeline.md)   | Loop         | MODERATE   | 15.4 miles | 2762 ft        | No  | Yes  |
+| [Blackett's Ridge](/hikes/blacketts-ridge.md)                            | Out and back | HARD       | 6 miles    | 1765 ft        | Yes | No   |
+| [Catalina State Park Loop](/hikes/catalina-state-park-loop.md)           | Loop         | EASY       | 2.3 miles  | 173 ft         | Yes | Yes  |
+| [Montrose Pools](/hikes/montrose-pools.md)                               | Out and back | EASY       | ~2 miles   | 300 ft         | Yes | No   |
+| [Pima Canyon](/hikes/pima-canyon.md)                                     | Out and back | MODERATE   | 10.1 miles | 3339 ft        | No  | No   |
+| [Romero Canyon to Romero Pools](/hikes/romero-canyon-to-romero-pools.md) | Out and back | HARD       | 5.5 miles  | 1322 ft        | Yes | No   |
+| [Wasson Peak](/hikes/wasson-peak.md)                                     | Out and back | HARD       | 9.3 miles  | 2093 ft        | Yes | No   |
 

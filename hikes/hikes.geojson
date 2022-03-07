@@ -228,6 +228,30 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Romero Canyon to Romero Pools",
+        "type": "Out and back",
+        "distance": "5.5 miles",
+        "elevationGain": "1322 ft",
+        "fee": true,
+        "feeUrl": "https://azstateparks.com/catalina/",
+        "dogs": false,
+        "difficulty": "hard",
+        "url": "/hikes/romero-canyon-to-romero-pools",
+        "latitude": 32.425303,
+        "longitude": -110.908599,
+        "location": "Tucson, AZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.908599,
+          32.425303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Wasson Peak",
         "created": "2022-02-19T00:00:00.000Z",
         "category": "hikes",
