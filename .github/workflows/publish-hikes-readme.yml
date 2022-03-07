@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: node ./build/publish-hikes-readme.js
+      - run: npm run hikesReadme
       - name: Commit report
         run: |
           git config --global user.name 'Bill Beckelman'
