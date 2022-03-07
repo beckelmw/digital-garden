@@ -9,7 +9,7 @@ This olive garden copycat recipe from https://www.thekitchn.com/recipe-zuppa-tos
 
 ## Ingredients
 
-- 1 pound uncooked ground spicy [italian sausage](./italian-sausage.md)
+- 1 pound uncooked ground spicy [italian sausage](/recipes/italian-sausage.md)
 - 1 large onion, diced
 - 2 cloves garlic, minced
 - Kosher salt
