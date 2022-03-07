@@ -35,5 +35,5 @@ url: /recipes
 | Name                                           |
 | ---------------------------------------------- |
 | [Minestrone Soup](/recipes/minestrone-soup.md) |
-| [Zuppa Toscana](/recipes/zuppa-toscana.md.md)  |
+| [Zuppa Toscana](/recipes/zuppa-toscana.md)     |
 
