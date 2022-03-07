@@ -29,5 +29,6 @@ jobs:
         run: |
           git config --global user.name 'Bill Beckelman'
           git config --global user.email 'bill@beckelman.net'
+          git add .
           git commit -am "[automated commit] Updated search"
           git push
