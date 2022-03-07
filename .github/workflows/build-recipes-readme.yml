@@ -1,11 +1,10 @@
-name: Build hikes readme
+name: Build recipes readme
 
 on:
   push:
     paths:
-      - 'hikes/**'
-      - '!hikes/*.geojson'
-      - '!hikes/readme.md'
+      - 'recipes/**'
+      - '!recipes/readme.md'
     
   workflow_dispatch:
 
@@ -20,7 +19,7 @@ jobs:
           node-version: '16'
       
       - run: npm install
-      - run: npm run build:hikes
+      - run: npm run build:recipes
       
       - name: Check for modified files
         id: git-check
@@ -31,5 +30,5 @@ jobs:
         run: |
           git config --global user.name 'Bill Beckelman'
           git config --global user.email 'bill@beckelman.net'
-          git commit -am "[automated commit] Updated hikes readme and geojson"
+          git commit -am "[automated commit] Updated recipes readme"
           git push
