@@ -1,11 +1,12 @@
 import { writeFile } from "fs/promises";
 import getFiles from "./lib/get-files.js";
-import getMeta from "./lib/get-meta.js";
+import getMarkdown from "./lib/get-markdown.js";
 import hikesReadme from "./lib/hikes-readme.js";
 import hikesGeojson from "./lib/hikes-geojson.js";
 
 const files = await getFiles("hikes/**/*.md");
-const meta = await getMeta(files);
+const markdown = await getMarkdown(files);
+const meta = markdown.map((x) => x.meta);
 const hikes = meta.filter((x) => x.latitude && x.longitude);
 
 // Create the readme.md

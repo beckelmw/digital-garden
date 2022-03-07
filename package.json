@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build:hikes": "node ./build/hikes.js",
-    "build:recipes": "node ./build/recipes.js"
+    "build:recipes": "node ./build/recipes.js",
+    "build:search": "node ./build/search.js"
   },
   "repository": {
     "type": "git",

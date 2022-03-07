@@ -16,17 +16,12 @@ async function convert(content) {
   return { markdown, meta: data.meta };
 }
 
+async function process(file) {
+  const content = await readFile(file);
+  const { markdown, meta } = await convert(content);
+  return { markdown, meta };
+}
+
 export default async (files) => {
-  const result = [];
-
-  for (const f of files) {
-    const content = await readFile(f);
-    const { meta } = await convert(content);
-
-    result.push({
-      ...meta,
-    });
-  }
-
-  return result;
+  return await Promise.all(files.map(process));
 };
