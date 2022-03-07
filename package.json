@@ -4,7 +4,7 @@
   "description": "Bill Beckelman's digital garden",
   "type": "module",
   "scripts": {
-    "build": "node ./build/index.js"
+    "build:hikes": "node ./build/hikes.js"
   },
   "repository": {
     "type": "git",
