@@ -17,11 +17,12 @@ jobs:
           
       - uses: actions/checkout@v2
       
-      - name: Run build
-        run: npm install
-        run: npm run build:hikes
-        run: npm run build:recipes
-        run: npm run build:search
+      - name: Execute build
+        run: | 
+          npm install
+          npm run build:hikes
+          npm run build:recipes
+          npm run build:search
       
       - name: Check for modified files
         id: git-check
