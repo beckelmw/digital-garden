@@ -4,7 +4,7 @@
   "description": "Bill Beckelman's digital garden",
   "type": "module",
   "scripts": {
-    "hikesReadme": "node ./build/hikes-readme.js"
+    "build": "node ./build/index.js"
   },
   "repository": {
     "type": "git",

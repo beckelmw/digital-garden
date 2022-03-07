@@ -20,8 +20,8 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: npm run hikesReadme
-      - name: Commit report
+      - run: npm run build
+      - name: Commit
         run: |
           git config --global user.name 'Bill Beckelman'
           git config --global user.email 'bill@beckelman.net'
