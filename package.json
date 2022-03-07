@@ -1,0 +1,30 @@
+{
+  "name": "digital-garden",
+  "version": "0.0.1",
+  "description": "Bill Beckelman's digital garden",
+  "type": "module",
+  "scripts": {
+    "hikesReadme": "node ./build/hikes-readme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckelmw/digital-garden.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beckelmw/digital-garden/issues"
+  },
+  "homepage": "https://beckelman.org",
+  "devDependencies": {
+    "globby": "^13.1.1",
+    "js-yaml": "^4.1.0",
+    "markdown-table": "^3.0.2",
+    "ramda": "^0.28.0",
+    "remark-frontmatter": "^4.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-stringify": "^10.0.2",
+    "unified": "^10.1.1"
+  }
+}

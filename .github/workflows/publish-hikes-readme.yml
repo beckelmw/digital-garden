@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Publish hikes readme.md
 
 on:
@@ -22,4 +20,10 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: node ./build/create-hikes-readme.js
+      - run: node ./build/publish-hikes-readme.js
+      - name: Commit report
+        run: |
+          git config --global user.name 'Bill Beckelman'
+          git config --global user.email 'bill@beckelman.net'
+          git commit -am "Updated hikes readme"
+          git push
