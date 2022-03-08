@@ -23,6 +23,7 @@ jobs:
           npm run build:hikes
           npm run build:recipes
           npm run build:search
+          npm run build:meta
       
       - name: Check for modified files
         id: git-check
