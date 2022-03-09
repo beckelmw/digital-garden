@@ -15,9 +15,9 @@ url: /code
 
 > Simply put, Script Kit helps you script away the friction of your day.
 
-- [Plant a digital seeding](scriptkit-script-to-plant-a-digital-seedling.md)
-- [Upload selected images to Cloudflare Images](scriptkit-script-to-upload-images-to-cloudflare-images.md)
+- [Plant a digital seeding](/code/scriptkit-script-to-plant-a-digital-seedling.md)
+- [Upload selected images to Cloudflare Images](/code/scriptkit-script-to-upload-images-to-cloudflare-images.md)
 
 ## Unified
 
-- [Mutating unist AST](mutating-unist-ast.md)
+- [Mutating unist AST](/code/mutating-unist-ast.md)

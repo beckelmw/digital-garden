@@ -1,11 +1,10 @@
-import { writeFile } from "fs/promises";
 import getFiles from "./lib/get-files.js";
 import getMarkdown from "./lib/get-markdown.js";
 
 const files = await getFiles("**/*.md");
 const mdFiles = await getMarkdown(files);
 
-const json = mdFiles.map(({ markdown, meta }) => {
+const data = mdFiles.map(({ markdown, meta }) => {
   return {
     title: meta.title,
     text: markdown,
@@ -13,4 +12,5 @@ const json = mdFiles.map(({ markdown, meta }) => {
   };
 });
 
-writeFile("./search.json", JSON.stringify(json));
+const json = JSON.stringify(data);
+await kvPut("search.json", { body: json });
