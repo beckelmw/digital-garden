@@ -5,7 +5,7 @@ url: /code
 
 ## How to
 
-- [Creating a digital garden with Github, Markdown and Cloudflare Workers](creating-a-digital-garden-with-github-markdown-and-cloudflare-workers.md)
+- [Creating a digital garden with Github, Markdown and Cloudflare Workers](/code/creating-a-digital-garden-with-github-markdown-and-cloudflare-workers.md)
 
 ## ScriptKit
 

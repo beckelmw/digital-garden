@@ -12,4 +12,5 @@ const data = Object.fromEntries(
 );
 
 const json = JSON.stringify(data, null, 2);
+//console.log(json);
 await kvPut("site.json", { body: json });

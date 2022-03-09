@@ -15,3 +15,4 @@ const data = mdFiles.map(({ markdown, meta }) => {
 
 const json = JSON.stringify(data);
 await kvPut("search.json", { body: json });
+// console.log(json);
