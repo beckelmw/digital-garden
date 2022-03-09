@@ -7,14 +7,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  env:
-    CLOUDFLARE_API_URL: ${{ secrets.CLOUDFLARE_API_URL }}
-    CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID}}
-    CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY}}
-    CONTENT_KV_ID: ${{ secrets.CONTENT_KV_ID}}
-    MAP_TILER_ACCESS_TOKEN: ${{ secrets.MAP_TILER_ACCESS_TOKEN}}
-
   build:
+    env:
+      CLOUDFLARE_API_URL: ${{ secrets.CLOUDFLARE_API_URL }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID}}
+      CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY}}
+      CONTENT_KV_ID: ${{ secrets.CONTENT_KV_ID}}
+      MAP_TILER_ACCESS_TOKEN: ${{ secrets.MAP_TILER_ACCESS_TOKEN}}
+
     runs-on: ubuntu-latest
 
     steps:
