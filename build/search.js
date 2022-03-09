@@ -1,5 +1,6 @@
 import getFiles from "./lib/get-files.js";
 import getMarkdown from "./lib/get-markdown.js";
+import kvPut from "./lib/kv-put.js";
 
 const files = await getFiles("**/*.md");
 const mdFiles = await getMarkdown(files);

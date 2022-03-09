@@ -8,14 +8,9 @@ on:
 
 jobs:
   build:
-    env:
-      CLOUDFLARE_API_URL: ${{ secrets.CLOUDFLARE_API_URL }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID}}
-      CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY}}
-      CONTENT_KV_ID: ${{ secrets.CONTENT_KV_ID}}
-      MAP_TILER_ACCESS_TOKEN: ${{ secrets.MAP_TILER_ACCESS_TOKEN}}
-
     runs-on: ubuntu-latest
+
+    environment: production
 
     steps:
       - uses: actions/setup-node@v2
@@ -23,6 +18,15 @@ jobs:
           node-version: "16"
 
       - uses: actions/checkout@v2
+
+      - name: Create .env file
+        run: |
+          touch .env
+          echo CLOUDFLARE_API_URL=${{ secrets.CLOUDFLARE_API_URL }} >> .env
+          echo CLOUDFLARE_ACCOUNT_ID=${{ secrets.CLOUDFLARE_ACCOUNT_ID}} >> .env
+          echo CLOUDFLARE_API_KEY=${{ secrets.CLOUDFLARE_API_KEY}} >> .env
+          echo CONTENT_KV_ID=${{ secrets.CONTENT_KV_ID}} >> .env
+          echo MAP_TILER_ACCESS_TOKEN=${{ secrets.MAP_TILER_ACCESS_TOKEN}} >> .env
 
       - name: Execute build
         run: |
