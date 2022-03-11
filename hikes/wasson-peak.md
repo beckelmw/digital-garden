@@ -13,6 +13,7 @@ difficulty: hard
 latitude: 32.288814
 longitude: -111.121357
 location: Tucson, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/3e363cf0-65fe-4bba-4954-70e9fceb7100/banner
 ---
 
 This was a beautiful [hike](https://www.alltrails.com/trail/us/arizona/wasson-peak-via-sweetwater-trail) with amazing views of the valleys around Tucson in all directions. I would recommend this hike for late October through the end of March only as there is little shade. This is definitely a start early and take lots of water hike.

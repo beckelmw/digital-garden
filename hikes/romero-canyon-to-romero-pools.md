@@ -11,6 +11,7 @@ url: /hikes/romero-canyon-to-romero-pools
 latitude: 32.425303
 longitude: -110.908599
 location: Tucson, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/9025d7a9-f209-4f7d-442e-cdd677ff2200/banner
 ---
 
 This [out and back](https://www.alltrails.com/trail/us/arizona/romero-canyon-trail-to-romero-pools) trail is accessed via [Catalina State Park](https://azstateparks.com/catalina/). It is a fantastic workout hike with ~1400 ft of elevation gain in 2.75 miles for total hike of 5.5 miles.

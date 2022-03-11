@@ -12,6 +12,7 @@ difficulty: moderate
 latitude: 32.353415
 longitude: -110.947756
 location: Tucson, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/f126a408-30fd-42df-6216-cc88eff93a00/banner
 ---
 I first hiked part of this 10.1 mile out and back trail during the Spring of 2020 prior to the Bighorn fire.
 
