@@ -165,7 +165,8 @@
         "difficulty": "moderate",
         "latitude": 31.726988,
         "longitude": -110.880819,
-        "location": "Green Valley, AZ"
+        "location": "Green Valley, AZ",
+        "banner": "https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/8c70e4ce-4246-49f8-31e4-3b67d8a30200/banner"
       },
       "geometry": {
         "type": "Point",
