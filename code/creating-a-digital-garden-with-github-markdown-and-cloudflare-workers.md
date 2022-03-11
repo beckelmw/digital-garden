@@ -18,14 +18,65 @@ So, here it is. How I started my digital garden using Github, Markdown and a Clo
 - [Github](https://github.com)
   - Content doesn't live on my machine
   - Versioned via git
-  - Existing API which 304s when content hasn't changed
-  - Can edit content from an iPad
+  - Can edit content from an iPad if I wanted via [github web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)
   - Another developer could contribute or correct my mistakes via a pull request
 - [Cloudflare worker](https://developers.cloudflare.com/workers/)
   - Easy setup
   - Served from the edge
   - Based on web standards
   - Inexpensive
+
+## Overview
+
+My digital garden has two repositories. The first [repo](https://github.com/beckelmw/digital-garden) contains my content such as markdown and geojson and a build process to convert the markdown to html. The [build scripts](https://github.com/beckelmw/digital-garden/tree/main/build) are executed via a [github action](https://github.com/beckelmw/digital-garden/blob/main/.github/workflows/build.yml) each time a file is committed to the repository which matches the glob `*/**.md`. The build process also uploads the latest html generated to the [Cloudflare KV](https://developers.cloudflare.com/workers/runtime-apis/kv/) store for my site. With this process, I avoid having the worker transform the markdown to html on each request.
+
+The second [repo](https://github.com/beckelmw/beckelman.org) contains my cloudflare worker which serves the html and geojson from the KV store as well as some other assets.
+
+### Processing markdown with Remark and generating HTML with Rehype
+
+```
+import { readFile } from "fs/promises";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkFrontmatter from "remark-frontmatter";
+import remarkGfm from "remark-gfm";
+import remarkRehype from "remark-rehype";
+import rehypeRaw from "rehype-raw";
+import rehypeStringify from "rehype-stringify";
+import rehypeMinifyWhitespace from "rehype-minify-whitespace";
+import frontmatter from "./transformers/frontmatter.js";
+import processImageList from "./transformers/process-image-list.js";
+import map from "./transformers/map.js";
+import removeExtensions from "./transformers/remove-extensions.js";
+
+async function convert(content) {
+  const { value: html, data } = await unified()
+    .use(remarkParse)
+    .use(remarkFrontmatter)
+    .use(frontmatter)
+    .use(remarkGfm)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw) // What allows raw html to work
+    .use(processImageList)
+    .use(map)
+    .use(removeExtensions)
+    .use(rehypeMinifyWhitespace)
+    .use(rehypeStringify)
+    .process(content);
+
+  return { html, meta: data.meta };
+}
+
+async function process(file) {
+  const content = await readFile(file);
+  const { html, meta } = await convert(content);
+  return { html, meta };
+}
+
+export default async (files) => {
+  return await Promise.all(files.map(process));
+};
+```
 
 ## Setting up a Cloudflare worker
 
@@ -35,8 +86,9 @@ This is my build.js file for the worker using [ESBuild's programmatic api](https
 
 ```
 import * as esbuild from "esbuild";
+import { transform as tempura } from "tempura/esbuild";
 
-const mode = process.env.NODE_ENV?.toLowerCase() ?? "development";
+const mode = process.env.MODE?.toLowerCase() ?? "development";
 
 console.log(`[Worker] Running esbuild in ${mode} mode`);
 
@@ -51,99 +103,53 @@ esbuild.build({
     "process.env.NODE_ENV": `"${mode}"`,
   },
   outfile: "dist/index.mjs", // .mjs is important for Cloudflare
+  plugins: [
+    tempura(),
+  ],
 });
 
 ```
 
 ### Miniflare
 
-[Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. Within package.json miniflare is started with some [KV settings](https://miniflare.dev/storage/kv) and a command to run the build script above. It will also watch for code changes.
+[Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. This is my wrangler.toml with miniflare settings.
 
+```
+compatibility_date = "2021-11-12"
+name = "beckelman-org"
+type = "javascript"
+workers_dev = true
+
+kv_namespaces = [
+  {binding = "CONTENT", id = "<my-id>"},
+]
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "modules"
+main = "index.mjs"
+
+[miniflare]
+watch = true
+build_watch_dirs = ["src", ".mf/kv/CONTENT/css"]
+live_reload = true
+kv_persist = true
+
+```
+
+Miniflare is started as a dev script:
 ```
 "scripts": {
     "dev": "concurrently \"npm:dev:*\"",
-    "dev:worker": "miniflare --kv CONTENT --kv-persist --build-command \"node ./build.js\" --watch --debug"
+    "dev:worker": "miniflare"
 }
 ```
 
 #### Environment variables
 
 Miniflare will pickup the variables you define in a [.env](https://miniflare.dev/core/variables-secrets) file automatically. When you deploy your worker to Cloudflare you will need to set the environment variables your worker expects using their [wrangler cli](https://developers.cloudflare.com/workers/cli-wrangler/commands#put) tool.
-
-### Getting content from the Github API
-
-You can use the [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API from within a Cloudflare worker. The fetch call looks like this:
-
-```
-const headers = new Headers({
-    authorization: `token ${env.GITHUB_TOKEN}`,
-    accept: "application/vnd.github.v3+json",
-    "User-Agent": "beckelman.org", // GITHUB will send 403 without UserAgent
-});
-
-if (cachedItem?.etag) {
-    headers.append("If-None-Match", cachedItem.etag);
-}
-
-const res = await fetch(`https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents${path}`, {
-    headers,
-});
-```
-
-#### Caching fetched content with Workers KV
-
-When you make a request for content from the Github API it will return a [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) status code if the content hasn't changed. You tell it what content you have via an [etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) in a [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match) header in your request. The nice thing about [304s is they don't count against your API quota](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#conditional-requests).
-
-The flow is:
-
-- Check [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) for cached content
-- If cached content exists, then add If-None-Match header with etag stored with the cached content
-- Make request
-- Check response
-  - If status code 304 then bail and return existing cached content
-  - If status code 200 then cache new content with etag and then return content to user
-  - If status code 404 then delete cached content and return 404 to the user
-  - If there is an error return cached content
-
-### Processing markdown with Remark and generating HTML with Rehype
-
-```
-import { unified } from "unified";
-import remarkParse from "remark-parse";
-import remarkFrontmatter from "remark-frontmatter";
-import remarkGfm from "remark-gfm";
-import remarkRehype from "remark-rehype";
-import rehypeRaw from "rehype-raw";
-import rehypeStringify from "rehype-stringify";
-import { visit } from "unist-util-visit";
-import { load as yaml } from "js-yaml";
-
-export default async (markdown) => {
-  let meta = {};
-  const { value: html } = await unified()
-    .use(remarkParse)
-    .use(remarkFrontmatter)
-    .use(() => {
-      return (ast, file) => {
-        file.data.meta = {};
-        visit(
-          ast,
-          (x) => x.type === "yaml",
-          (node, index, parent) => {
-            file.data.meta = { ...yaml(node.value) };
-          }
-        );
-      };
-    })
-    .use(remarkGfm)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw) // What allows raw html to work
-    .use(rehypeStringify)
-    .process(markdown);
-
-  return { html, meta: file.data.meta };
-};
-```
 
 ## TailwindCSS
 

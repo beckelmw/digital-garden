@@ -6,7 +6,7 @@
   "scripts": {
     "build:search": "node -r dotenv/config ./build/search.js",
     "build:site": "node -r dotenv/config ./build/site.js",
-    "build:hikes": "node ./build/hikes.js",
+    "build:hikes": "node -r dotenv/config ./build/hikes.js",
     "build:recipes": "node ./build/recipes.js"
   },
   "repository": {
