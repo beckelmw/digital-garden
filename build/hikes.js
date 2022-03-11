@@ -14,10 +14,6 @@ const hikes = meta.filter((x) => x.latitude && x.longitude);
 const md = await hikesReadme(hikes);
 await writeFile("./hikes/readme.md", md);
 
-// Create hikes.geojson
-const geojson = await hikesGeojson(hikes);
-await writeFile("./hikes/hikes.geojson", JSON.stringify(geojson, null, 2));
-
 // Create combined geojson file and upload to cloudflare kv
 const geoJsonFiles = await getFiles("hikes/**/*.geojson");
 const combined = Object.fromEntries(
@@ -28,5 +24,8 @@ const combined = Object.fromEntries(
     })
   )
 );
+
+// Add the geojson for hikes readme
+combined['/hikes.geojson'] = await hikesGeojson(hikes);
 //console.log(JSON.stringify(combined, null, 2));
 await kvPut("geojson.json", { body: JSON.stringify(combined) });
