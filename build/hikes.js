@@ -26,6 +26,6 @@ const combined = Object.fromEntries(
 );
 
 // Add the geojson for hikes readme
-combined['/hikes.geojson'] = await hikesGeojson(hikes);
+combined['/hikes/hikes.geojson'] = await hikesGeojson(hikes);
 //console.log(JSON.stringify(combined, null, 2));
 await kvPut("geojson.json", { body: JSON.stringify(combined) });
