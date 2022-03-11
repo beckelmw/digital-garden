@@ -63,7 +63,8 @@
         "url": "/hikes/boynton-canyon",
         "latitude": 34.906395,
         "longitude": -111.850473,
-        "location": "Sedona, AZ"
+        "location": "Sedona, AZ",
+        "banner": "https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/2b3e48fc-b0d6-453a-e8f3-e7e50ee68800/banner"
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +140,8 @@
         "difficulty": "moderate",
         "latitude": 34.887838,
         "longitude": -111.822567,
-        "location": "Sedona, AZ"
+        "location": "Sedona, AZ",
+        "banner": "https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/86a4b936-15f4-4478-2c15-343bbab7ce00/banner"
       },
       "geometry": {
         "type": "Point",
@@ -291,7 +293,8 @@
         "difficulty": "moderate",
         "latitude": 34.995056,
         "longitude": -111.737095,
-        "location": "Sedona, AZ"
+        "location": "Sedona, AZ",
+        "banner": "https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/05adc525-3c0b-4da0-b240-0cfbccc90100/banner"
       },
       "geometry": {
         "type": "Point",
