@@ -12,6 +12,7 @@ difficulty: moderate
 latitude: 34.887838
 longitude: -111.822567
 location: Sedona, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/86a4b936-15f4-4478-2c15-343bbab7ce00/banner
 ---
 This is a very popular out and back [trail](https://www.alltrails.com/trail/us/arizona/devils-bridge-trail) in the Sedona, AZ area. This is the largest natural bridge in the [Coconino National Forest](https://www.fs.usda.gov/coconino/). You will often need to park quite a ways from the actual trail head and will encounter numerous hikers even during the warmer months. The hike is easy except for the last ~2/10 of a mile to the bridge where it is moderate. The bridge itself is great for pictures and is much wider than the pictures make it look.
 
