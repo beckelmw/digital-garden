@@ -32,3 +32,5 @@ This [out and back](https://www.alltrails.com/trail/us/arizona/romero-canyon-tra
 - ![IMG_7798.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/65840285-4f8f-4f29-858c-619f64793100/330width)
 - ![IMG_7939.jpg from 32.420425, -110.886681](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/45c8e6d4-84e8-4a4d-03ec-33c422e05e00/330width)
 - ![IMG_7942.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/a39add3c-0044-4faa-a00a-cc9668274000/330width)
+- ![IMG_0578.jpg from 32.420178, -110.881789](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/abe8f2cd-042a-40cc-c60b-bde18be23f00/330width)
+- ![IMG_0580.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/1e5e6707-5ac9-49e3-a828-92d2b384c500/330width)
