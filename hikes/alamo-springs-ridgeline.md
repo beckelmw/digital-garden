@@ -10,6 +10,7 @@ url: /hikes/alamo-springs-ridgeline
 latitude:  32.475365
 longitude: -111.091058
 location: Tucson, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/9e914e29-e90d-43de-30a0-c345b1fc7d00/banner
 ---
 
 This [loop trail](https://www.alltrails.com/trail/us/arizona/wild-mustang-to-wild-burro-to-ridgeline-to-alamo-springs) is part of the system behind the Tucson Ritz Carlton in the Tortolita Mountains.

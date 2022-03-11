@@ -11,6 +11,7 @@ url: /hikes/blacketts-ridge
 latitude: 32.309423
 longitude: -110.822081
 location: Tucson, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/57ccf786-8e4c-4c44-4917-cf7d08cd0300/banner
 ---
 
 We hiked [Blackett's Ridge](https://www.alltrails.com/trail/us/arizona/blacketts-ridge-trail) as a sunset hike with return via headlamp. We departed the main parking area for [Sabino Canyon](https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80532) about an hour and fifteen minutes prior to sunset arriving just in time to view the sunset from the top.
