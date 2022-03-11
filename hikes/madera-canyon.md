@@ -13,6 +13,7 @@ difficulty: moderate
 latitude: 31.726988
 longitude: -110.880819
 location: Green Valley, AZ
+banner: https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/8c70e4ce-4246-49f8-31e4-3b67d8a30200/banner
 ---
 I've hiked a few different trails here including the [Josephine saddle](https://www.alltrails.com/trail/us/arizona/josephine-saddle-madera-canyon-trail) and the [Vault mine loop](https://www.alltrails.com/trail/us/arizona/vault-mine-loop) trail. Depending upon the time of year/day of the week parking can be difficult as it is somewhat limited.
 
