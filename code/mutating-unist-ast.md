@@ -3,6 +3,7 @@ title: Mutating Unist AST
 category: code
 url: /code/mutating-unist-ast
 status: seedling
+description: Example of mutating a Unist Abstract Syntax Tree (AST).
 ---
 
 Great example https://css-tricks.com/how-to-modify-nodes-in-an-abstract-syntax-tree/

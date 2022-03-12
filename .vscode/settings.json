@@ -4,6 +4,7 @@
         "hastscript",
         "mapbox",
         "rehype",
+        "Ridgeline",
         "scriptkit",
         "unist"
     ]

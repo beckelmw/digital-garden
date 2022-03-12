@@ -3,6 +3,7 @@ title: ScriptKit script to plant a digital seedling
 created: 2022-01-20
 status: budding
 url: /code/scriptkit-script-to-plant-a-digital-seedling
+description: Example of using ScriptKit to create a file and then upload it to Github via the Github API.
 ---
 
 ```

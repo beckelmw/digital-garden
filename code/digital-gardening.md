@@ -4,6 +4,7 @@ created: 2022-01-25
 category: code
 status: seedling
 url: /code/digital-gardening
+description: General information page for digital gardening terms I might use.
 ---
 
 <div id="status"></div>
