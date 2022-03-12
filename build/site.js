@@ -8,7 +8,7 @@ const mdFiles = await getHtml(files);
 const data = Object.fromEntries(
   mdFiles.map(({ meta, html }) => {
     if (!meta.description && /\/hikes\/.*/.test(meta.url)) {
-      meta.description = `Route and pictures from hiking the ${meta.title} near ${meta.location}.`;
+      meta.description = `Route and pictures from hiking the ${meta.title} trail near ${meta.location}.`;
     }
     return [meta.url, { ...meta, html }];
   })
