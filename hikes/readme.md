@@ -1,6 +1,7 @@
 ---
 title: Hiking
 url: /hikes
+description: Links to sections of Bill Beckelman's digital garden on hikes I have completed along with routes and pictures.
 ---
 
 <wb-map url="/hikes/hikes.geojson"></wb-map>

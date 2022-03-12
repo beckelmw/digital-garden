@@ -1,6 +1,7 @@
 ---
 title: Code
 url: /code
+description: Links to sections of Bill Beckelman's digital garden focused on coding.
 ---
 
 ## How to
