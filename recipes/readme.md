@@ -1,7 +1,6 @@
 ---
 title: Recipes
 url: /recipes
-description: Links to sections of Bill Beckelman's digital garden focused on recipes.
 ---
 
 ### Baking
