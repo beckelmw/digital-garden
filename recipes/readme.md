@@ -37,3 +37,9 @@ url: /recipes
 | [Minestrone Soup](/recipes/minestrone-soup.md) |
 | [Zuppa Toscana](/recipes/zuppa-toscana.md)     |
 
+### Thai
+
+| Name                                    |
+| --------------------------------------- |
+| [Pad See Ew](/recipes/pad-see-ew.md.md) |
+
