@@ -39,7 +39,7 @@ url: /recipes
 
 ### Thai
 
-| Name                                    |
-| --------------------------------------- |
-| [Pad See Ew](/recipes/pad-see-ew.md.md) |
+| Name                                 |
+| ------------------------------------ |
+| [Pad See Ew](/recipes/pad-see-ew.md) |
 
