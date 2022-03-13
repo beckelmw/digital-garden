@@ -46,3 +46,10 @@ I've always liked Italian sausage. I found this recipe for making my own that ha
 - I like the consistency of chopped meat for this sausage. You don't need to get it pre-ground or even use a grinder. You can instead chop it by hand.
 - I buy large pork butts when they are on sale. I cut them into smaller chunks prior to freezing them for later use. I then take the smaller chunks out of the freezer and chop them while they are still mostly frozen.
 - 2 teaspoons of crushed red pepper is fairly mild. I like to add more when I am cooking depending up on the dish.
+
+- ![0. italian sausage.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/84f36332-7954-429e-c949-29cd5538b900/330width)
+- ![1. itallian sausage.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/92e9a7e7-d026-485c-cef6-609113e7a100/330width)
+- ![2. italian sausage.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/180ad34a-8566-4668-d65b-33161f752c00/330width)
+- ![3. italian sausage.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/392eb118-4ec9-4b2f-d765-9edf28910000/330width)
+- ![IMG_0460.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/eecc05b3-2bb4-40e4-9bb5-3629fa50ae00/330width)
+- ![IMG_0464.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/631312a3-0768-4ff7-9b0d-36244378aa00/330width)
