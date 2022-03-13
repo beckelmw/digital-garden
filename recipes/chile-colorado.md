@@ -59,3 +59,9 @@ Chile colorado is great by itself, with fresh [flour tortillas](/recipes/flour-t
 - You can substitute fresh pablano for dried ancho. Just add with the onion and carrots.
 - Serve with queso fresco and cilantro on top
 - You can make enchilada sauce in advance and store in mason jars (fridge) and use instead of making the pepper mixture.
+
+- ![IMG_7804.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/4dbc1457-c509-47f6-d718-1caa107d5800/330width)
+- ![IMG_7807.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/e7be2f7b-897f-41fa-741d-a3cbff5b0f00/330width)
+- ![IMG_7809.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/4c94bd77-77d8-4f45-8e72-927cca44eb00/330width)
+- ![IMG_7813.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/07b598f3-ace5-4864-f8a1-a0bf6e402300/330width)
+- ![IMG_7816.jpg](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/28d1fbc6-c6af-43ff-7d30-9fcb654f6c00/330width)
