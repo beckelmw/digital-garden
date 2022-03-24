@@ -27,6 +27,7 @@ jobs:
           echo CLOUDFLARE_API_KEY=${{ secrets.CLOUDFLARE_API_KEY}} >> .env
           echo CONTENT_KV_ID=${{ secrets.CONTENT_KV_ID}} >> .env
           echo MAP_TILER_ACCESS_TOKEN=${{ secrets.MAP_TILER_ACCESS_TOKEN}} >> .env
+          echo SITE_BASE_URL=${{secrets.SITE_BASE_URL}} >> .env
 
       - name: Execute build
         run: |
@@ -35,6 +36,7 @@ jobs:
           npm run build:recipes
           npm run build:search
           npm run build:site
+          npm run build:sitemap
 
       - name: Check for modified files
         id: git-check

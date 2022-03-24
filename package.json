@@ -7,7 +7,8 @@
     "build:search": "node -r dotenv/config ./build/search.js",
     "build:site": "node -r dotenv/config ./build/site.js",
     "build:hikes": "node -r dotenv/config ./build/hikes.js",
-    "build:recipes": "node ./build/recipes.js"
+    "build:recipes": "node -r dotenv/config ./build/recipes.js",
+    "build:sitemap": "node -r dotenv/config ./build/sitemap.js"
   },
   "repository": {
     "type": "git",
