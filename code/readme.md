@@ -7,6 +7,7 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 ## How to
 
 - [Creating a digital garden with Github, Markdown and Cloudflare Workers](/code/creating-a-digital-garden-with-github-markdown-and-cloudflare-workers.md)
+- [Cloudflare worker and Supabase](/code/cloudflare-worker-and-supabase.md)
 
 ## ScriptKit
 

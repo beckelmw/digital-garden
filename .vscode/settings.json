@@ -6,6 +6,7 @@
         "rehype",
         "Ridgeline",
         "scriptkit",
+        "Supabase",
         "unist"
     ]
 }
