@@ -17,3 +17,7 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 ## Unified
 
 - [Mutating unist AST](/code/mutating-unist-ast.md)
+
+## CSS
+
+- [Full bleed layout using CSS grid](/code/css/full-bleed-layout-using-css-grid)
