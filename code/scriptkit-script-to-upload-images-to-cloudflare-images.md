@@ -6,7 +6,7 @@ url: /code/scriptkit-script-to-upload-images-to-cloudflare-images
 description: Example of using ScriptKit to upload images to Cloudflare Images via their API.
 ---
 
-```
+```js
 import "@johnlindquist/kit";
 
 const CLOUDFLARE_ACCOUNT_ID = await env("CLOUDFLARE_ACCOUNT_ID");

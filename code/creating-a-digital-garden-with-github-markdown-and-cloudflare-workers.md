@@ -35,7 +35,7 @@ The second [repo](https://github.com/beckelmw/beckelman.org) contains my cloudfl
 
 ### Processing markdown with Remark and generating HTML with Rehype
 
-```
+```js
 import { readFile } from "fs/promises";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
@@ -85,7 +85,7 @@ export default async (files) => {
 
 This is my build.js file for the worker using [ESBuild's programmatic api](https://esbuild.github.io/getting-started/):
 
-```
+```js
 import * as esbuild from "esbuild";
 import { transform as tempura } from "tempura/esbuild";
 
@@ -115,7 +115,7 @@ esbuild.build({
 
 [Miniflare](https://miniflare.dev/) allows you to work with Cloudflare workers locally. This is my wrangler.toml with miniflare settings.
 
-```
+```toml
 compatibility_date = "2021-11-12"
 name = "beckelman-org"
 type = "javascript"
@@ -141,7 +141,7 @@ kv_persist = true
 ```
 
 Miniflare is started as a dev script:
-```
+```json
 "scripts": {
     "dev": "concurrently \"npm:dev:*\"",
     "dev:worker": "miniflare"
@@ -156,7 +156,7 @@ Miniflare will pickup the variables you define in a [.env](https://miniflare.dev
 
 You cannot currently setup your tailwind config as an ES Module. They have a [work around though where they will pickup the config](https://github.com/tailwindlabs/tailwindcss/pull/3181) when it ends with a `.cjs`. Here is my `tailwind.config.cjs` file:
 
-```
+```js
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -168,7 +168,7 @@ module.exports = {
 
 I am processing it concurrently along with miniflare using the script below and writing it a location where miniflare will serve it when requested from KV storage.
 
-```
+```json
 "scripts": {
     "dev": "concurrently \"npm:dev:*\"",
     "dev:worker": "miniflare --kv CONTENT --kv-persist --build-command \"node ./build.js\" --watch --debug",
@@ -180,6 +180,6 @@ I am processing it concurrently along with miniflare using the script below and 
 
 After a build, the css needs to be published to the workers KV store. The command below will upload the file.
 
-```
+```bash
 wrangler kv:key put --binding=CONTENT css/site.css ./dist/site.css --path
 ```

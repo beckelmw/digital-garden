@@ -10,7 +10,7 @@ Great example https://css-tricks.com/how-to-modify-nodes-in-an-abstract-syntax-t
 
 The code below will change a list of images into a grid of images.
 
-```
+```js
 import { selectAll } from "unist-util-select";
 import { visit } from "unist-util-visit";
 

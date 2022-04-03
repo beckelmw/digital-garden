@@ -6,7 +6,7 @@ url: /code/scriptkit-script-to-plant-a-digital-seedling
 description: Example of using ScriptKit to create a file and then upload it to Github via the Github API.
 ---
 
-```
+```js
 // Name: Plant seedling
 // Description: Plant a seedling in your digital garden
 // Author: Bill Beckelman
