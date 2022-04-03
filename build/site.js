@@ -10,6 +10,7 @@ const data = Object.fromEntries(
     if (!meta.description && /\/hikes\/.*/.test(meta.url)) {
       meta.description = `Route and pictures from hiking the ${meta.title} trail near ${meta.location}.`;
     }
+
     return [meta.url, { ...meta, html }];
   })
 );

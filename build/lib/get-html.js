@@ -11,6 +11,7 @@ import frontmatter from "./transformers/frontmatter.js";
 import processImageList from "./transformers/process-image-list.js";
 import map from "./transformers/map.js";
 import removeExtensions from "./transformers/remove-extensions.js";
+import rehypeHighlight from 'rehype-highlight';
 
 async function convert(content) {
   const { value: html, data } = await unified()
@@ -20,6 +21,7 @@ async function convert(content) {
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw) // What allows raw html to work
+    .use(rehypeHighlight)
     .use(processImageList)
     .use(map)
     .use(removeExtensions)
