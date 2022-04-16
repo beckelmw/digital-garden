@@ -13,6 +13,7 @@ import map from "./transformers/map.js";
 import removeExtensions from "./transformers/remove-extensions.js";
 import rehypeHighlight from 'rehype-highlight';
 import code from "./transformers/code.js";
+import blockquotes from "./transformers/blockquotes.js";
 
 async function convert(content) {
   const { value: html, data } = await unified()
@@ -26,6 +27,7 @@ async function convert(content) {
     .use(processImageList)
     .use(map)
     .use(code)
+    .use(blockquotes)
     .use(removeExtensions)
     .use(rehypeMinifyWhitespace)
     .use(rehypeStringify)
