@@ -8,7 +8,7 @@ description: Explanation of how I created my digital garden using Markdown, Gith
 ---
 
 > Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis.
-— https://maggieappleton.com/garden-history.
+— https://maggieappleton.com/garden-history
 
 So, here it is. How I started my digital garden using Github, Markdown and a Cloudflare worker.
 

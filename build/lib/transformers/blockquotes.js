@@ -3,6 +3,7 @@ import { h } from "hastscript";
 
 export default () => {
   return (ast, file) => {
+    console.log(file);
     visit(
       ast,
       (x) => x.tagName === "blockquote",
