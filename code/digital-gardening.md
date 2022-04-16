@@ -15,5 +15,4 @@ description: General information page for digital gardening terms I might use.
 - Budding: Work which has been cleaned up and clarified
 - Evergreen: Complete but may change some over time
 
-> This freedom of course comes with great responsibility. Publishing imperfect and early ideas requires that we make the status of our notes clear to readers. You should include some indicator of how "done" they are, and how much effort you've invested in them.
-— https://maggieappleton.com/garden-history
+> This freedom of course comes with great responsibility. Publishing imperfect and early ideas requires that we make the status of our notes clear to readers. You should include some indicator of how "done" they are, and how much effort you've invested in them. — https://maggieappleton.com/garden-history
