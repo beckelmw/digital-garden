@@ -21,9 +21,9 @@ export default () => {
           ""
         );
 
-        parent.children[idx] = h("figure", {}, [
+        parent.children[idx] = h("figure", { class: "quote" }, [
           h("blockquote", {}, quote),
-          h("figcaption", {}, [h("cite", { class: 'text-right'}, cite)]),
+          h("figcaption", {}, [h("cite", {}, cite)]),
         ]);
       }
     );
