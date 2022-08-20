@@ -9,6 +9,14 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 - [Creating a digital garden with Github, Markdown and Cloudflare Workers](/code/creating-a-digital-garden-with-github-markdown-and-cloudflare-workers.md)
 - [Cloudflare worker and Supabase](/code/cloudflare-worker-and-supabase.md)
 
+## CSS
+
+- [Full bleed layout using CSS grid](/code/css/full-bleed-layout-using-css-grid)
+
+## Docker
+
+- [Docker](/code/docker.md)
+
 ## [ScriptKit](https://www.scriptkit.com/)
 
 - [Plant a digital seeding](/code/scriptkit-script-to-plant-a-digital-seedling.md)
@@ -17,7 +25,3 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 ## Unified
 
 - [Mutating unist AST](/code/mutating-unist-ast.md)
-
-## CSS
-
-- [Full bleed layout using CSS grid](/code/css/full-bleed-layout-using-css-grid)
