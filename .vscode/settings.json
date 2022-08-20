@@ -1,13 +1,16 @@
 {
     "cSpell.words": [
         "blockquotes",
+        "endswith",
         "frontmatter",
         "hastscript",
+        "kwargs",
         "mapbox",
         "rehype",
         "Ridgeline",
         "scriptkit",
         "Supabase",
+        "tablename",
         "unist"
     ]
 }

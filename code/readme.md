@@ -11,11 +11,16 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 
 ## CSS
 
-- [Full bleed layout using CSS grid](/code/css/full-bleed-layout-using-css-grid)
+- [Full bleed layout using CSS grid](/code/css/full-bleed-layout-using-css-grid.md)
 
 ## Docker
 
 - [Docker](/code/docker.md)
+
+## Python
+
+- [FastAPI](/code/python/fast-api.md)
+- [SQLModel](/code/python/sql-model.md)
 
 ## [ScriptKit](https://www.scriptkit.com/)
 

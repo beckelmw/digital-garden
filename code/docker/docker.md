@@ -8,9 +8,9 @@ description: Notes on using docker
 
 ## Environment variables
 
-Docker compose can use your `.env` file.
+Docker compose can use your `.env` file. The path is relative to the docker-compose.yml file.
 
-```toml
+```yml
 version: '3.8'
 
 services:
