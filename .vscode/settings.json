@@ -6,6 +6,7 @@
         "hastscript",
         "kwargs",
         "mapbox",
+        "pytest",
         "rehype",
         "Ridgeline",
         "scriptkit",

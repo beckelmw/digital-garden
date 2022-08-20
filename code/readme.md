@@ -20,6 +20,7 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 ## Python
 
 - [FastAPI](/code/python/fast-api.md)
+- [pytest](/code/python/pytest.md)
 - [SQLModel](/code/python/sql-model.md)
 
 ## [ScriptKit](https://www.scriptkit.com/)
