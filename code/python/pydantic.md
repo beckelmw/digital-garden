@@ -14,6 +14,8 @@ Given environment variables in an `.env` file:
 DATABASE_URL=
 ```
 
+a typed settings class can be created by inheriting from BaseSettings
+
 ```python
 from pydantic import BaseSettings
 
@@ -28,7 +30,7 @@ Usage:
     settings = Settings()
 ```
 
-In my case I am using vscode with a `launch.json` configuration to pull in the environment variables:
+In my case, I am using vscode with a `launch.json` configuration to pull in the environment variables:
 
 ```json
 {
