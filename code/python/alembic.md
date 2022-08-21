@@ -6,7 +6,9 @@ url: /code/python/alembic
 description: Notes on using alembic for migrations
 ---
 
-## Init
+## Using Alembic with SQLModel and async SQLAlchemy
+
+### Init
 
 ```bash
 alembic init -t async migrations
@@ -92,21 +94,25 @@ else:
 ```
 
 
-- Generate the first migration with `alembic revision --autogenerate -m "init"`
+- Generate the first migration with:
 
-## Apply migrations
+```python
+alembic revision --autogenerate -m "init"
+```
+
+### Apply migrations
 
 ```bash
 alembic upgrade head
 ```
 
-## Create migration
+### Create migration
 
 ```bash
 alembic revision --autogenerate -m "add year"
 ```
  
 
-## Tutorials
+### Tutorials
 
 - https://testdriven.io/blog/fastapi-sqlmodel/
