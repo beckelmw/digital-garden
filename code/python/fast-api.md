@@ -52,3 +52,31 @@ async def service_exception_handler(request: Request, exc: ServiceException):
 ```
 
 More examples https://fastapi.tiangolo.com/tutorial/handling-errors/#install-custom-exception-handlers
+
+## Example data
+
+https://fastapi.tiangolo.com/tutorial/schema-extra-example/
+
+Interesting thought to separate into separate example's file so model isn't cluttered
+
+```python
+class Item(BaseModel):
+    name: str
+    description: str | None = None
+    price: float
+    tax: float | None = None
+
+    class Config:
+        schema_extra = {
+            "example": {
+                "name": "Foo",
+                "description": "A very nice Item",
+                "price": 35.4,
+                "tax": 3.2,
+            }
+        }
+```
+
+- ![External examples](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/08b505a3-f0b2-41e5-2b4c-445e87cf1b00/public)
+
+From https://medium.com/@estretyakov/the-data-scraping-on-demand-using-fastapi-39a0bd47146b
