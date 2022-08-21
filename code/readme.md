@@ -21,6 +21,7 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 
 - [Alembic](/code/python/alembic.md)
 - [FastAPI](/code/python/fast-api.md)
+- [pydantic](/code/python/pydantic.md)
 - [pytest](/code/python/pytest.md)
 - [SQLModel](/code/python/sql-model.md)
 

@@ -7,6 +7,8 @@
         "hastscript",
         "kwargs",
         "mapbox",
+        "Pydantic",
+        "pydantic's",
         "pytest",
         "rehype",
         "Ridgeline",
