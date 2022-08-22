@@ -8,11 +8,11 @@ description: Notes on python
 
 ## Related
 
-- [alembic](alembic.md)
-- [fast-api](fast-api.md)
-- [pydantic](pydantic.md)
-- [pytest](pytest.md)
-- [SQLModel](sql-model.md)
+- [alembic](/code/python/alembic.md)
+- [fast-api](/code/python/fast-api.md)
+- [pydantic](/code/python/pydantic.md)
+- [pytest](/code/python/pytest.md)
+- [SQLModel](/code/python/sql-model.md)
 
 ## Async Generators
 
