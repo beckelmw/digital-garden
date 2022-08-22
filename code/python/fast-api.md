@@ -57,7 +57,6 @@ More examples https://fastapi.tiangolo.com/tutorial/handling-errors/#install-cus
 
 https://fastapi.tiangolo.com/tutorial/schema-extra-example/
 
-Interesting thought to separate into separate example's file so model isn't cluttered
 
 ```python
 class Item(BaseModel):
@@ -76,6 +75,8 @@ class Item(BaseModel):
             }
         }
 ```
+
+Interesting thought to separate into separate example's file so model isn't cluttered
 
 - ![External examples](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/08b505a3-f0b2-41e5-2b4c-445e87cf1b00/public)
 
