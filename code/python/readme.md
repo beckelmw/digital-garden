@@ -10,6 +10,7 @@ description: Notes on python
 
 - [alembic](/code/python/alembic.md)
 - [fast-api](/code/python/fast-api.md)
+- [mypy](/code/python/mypy.md)
 - [pydantic](/code/python/pydantic.md)
 - [pytest](/code/python/pytest.md)
 - [SQLModel](/code/python/sql-model.md)
@@ -39,7 +40,7 @@ pprint(dict1)
 new_dict = { **dict1, **dict1, **dict3 }
 ```
 
-## Using None as a default parameters
+## Using None as a default parameter
 
 `None` is the only sensible default for a mutable type otherwise multiple callers could share the passengers list in the first example below. https://realpython.com/lessons/none-default-parameter/
 
