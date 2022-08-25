@@ -14,6 +14,48 @@ description: Notes on python
 - [pytest](/code/python/pytest.md)
 - [SQLModel](/code/python/sql-model.md)
 
+## Help
+
+In a python repl:
+
+```
+>>> import json
+>>> dir(json)
+>>> help(json.dumps)
+```
+
+## Pretty printing
+
+```python
+from pprint import pprint
+pprint(dict1)
+```
+
+## Dictionaries
+
+### Merging an arbitrary number of dictionaries
+
+```python
+new_dict = { **dict1, **dict1, **dict3 }
+```
+
+## Using None as a default parameters
+
+`None` is the only sensible default for a mutable type otherwise multiple callers could share the passengers list in the first example below. https://realpython.com/lessons/none-default-parameter/
+
+```python
+class Bus:
+    def ___init___(self, passengers: list = []): #bad
+        self.passengers = passengers
+
+class Bus: # better
+    def __init__(self, passengers: list = None)
+        if not passengers:
+            self.passengers = []
+        else
+            self.passengers = list(passengers)
+```
+
 ## Async Generators
 
 ### Typing
