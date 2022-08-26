@@ -17,6 +17,10 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 
 - [Docker](/code/docker.md)
 
+## Make
+
+- [Make](/code/tools/make.md)
+
 ## Python
 
 - [Python](/code/python)
