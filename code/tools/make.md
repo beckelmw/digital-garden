@@ -6,6 +6,10 @@ url: /code/tools/make
 description: Notes on using make
 ---
 
+## Docs
+
+https://www.gnu.org/software/make/manual/make.html
+
 ## Make help
 
 Set default target `.DEFAULT_GOAL := help`
@@ -19,3 +23,14 @@ help: ## Help
 ```
 
 - ![Make help demo](https://imagedelivery.net/jUwSKjsiLWz8U8lfkVW6uQ/5853efd2-27ee-4195-401d-ec8ac92aa900/public)
+
+## Testing for a required variable with test
+
+```bash
+.PHONY add-migration:
+add-migration: ## Create migration. Usage make add-migration name=""
+	@test -n "$(name)" || (echo 'A name must be defined for the migration. Ex: make add-migration name=init' && exit 1)
+	docker-compose exec web alembic revision --autogenerate -m "$(name)"
+```
+
+https://stackoverflow.com/questions/4728810/how-to-ensure-makefile-variable-is-set-as-a-prerequisite
