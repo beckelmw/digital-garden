@@ -17,6 +17,7 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 
 - [Docker](/code/docker.md)
 
+
 ## Make
 
 - [Make](/code/tools/make.md)
@@ -34,6 +35,11 @@ description: Links to sections of Bill Beckelman's digital garden focused on cod
 
 - [Plant a digital seeding](/code/scriptkit-script-to-plant-a-digital-seedling.md)
 - [Upload selected images to Cloudflare Images](/code/scriptkit-script-to-upload-images-to-cloudflare-images.md)
+
+
+## Services
+
+- [fly.io](/code/services/flyio.md)
 
 ## Unified
 
