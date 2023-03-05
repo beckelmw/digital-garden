@@ -1,7 +1,13 @@
 ---
-title: Mermaid example
+title: mermaidjs
+category: code
+status: seedling
+url: /code/tools/mermaid
+description: Notes on using mermaidjs
 ---
 
+
+## State diagram
 
 ```mermaid
 ---
